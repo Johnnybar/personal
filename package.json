@@ -47,6 +47,7 @@
     "redux": "^3.7.1",
     "redux-devtools-extension": "^2.13.2",
     "redux-promise": "^0.5.3",
+    "scroll-into-view": "^1.9.1",
     "socket.io": "^2.0.4",
     "spiced-pg": "github:spicedacademy/spiced-pg",
     "uid-safe": "^2.1.4",

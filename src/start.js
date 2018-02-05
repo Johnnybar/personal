@@ -7,19 +7,33 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import reduxPromise from 'redux-promise';
 import reducer from './reducers';
-import App from './app'
+import App from './app';
+import Home from './home';
+import { BrowserRouter } from 'react-router-dom'
+
+
+
 
 let router;
 
 const mainRouter = (
-    <Provider store = {store}>
+<Provider store = {store}>
+
     <Router history={browserHistory}>
         <Route path="/" component={App}>
-        <Redirect from ="*" to="/" />
-        <IndexRoute component={App} />
-        {/* IS THIS THE CORRECT ROUTE FOR INDEX?? */}
-    </Route>
+            <Route path="/contact" component ={Home} onEnter={function(){
+                  document.getElementById("contact-section").scrollIntoView();
+                  }
+              }/>
+            <Route path="/about" component ={Home} onEnter={function(){
+                  document.getElementById("about-section").scrollIntoView();
+                  }
+              } />
+            <IndexRoute component={Home} />
+            <Redirect from ="*" to="/" />
+        </Route>
     </Router>
+
 </Provider>
 );
 

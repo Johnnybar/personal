@@ -1,0 +1,27 @@
+#nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    left: 80vw;
+}
+#home-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #cccccc;
+}
+#about-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #a2a0a0
+}
+#work-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #444444
+}
+
+#contact-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000
+}

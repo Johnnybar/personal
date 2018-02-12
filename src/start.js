@@ -8,7 +8,8 @@ import { createStore, applyMiddleware } from 'redux';
 import reduxPromise from 'redux-promise';
 import reducer from './reducers';
 import App from './app';
-import Home from './home';
+import Main from './main';
+import Cm from './cm';
 import { BrowserRouter } from 'react-router-dom'
 
 
@@ -21,15 +22,12 @@ const mainRouter = (
 
     <Router history={browserHistory}>
         <Route path="/" component={App}>
-            <Route path="/contact" component ={Home} onEnter={function(){
-                  document.getElementById("contact-section").scrollIntoView();
-                  }
-              }/>
-            <Route path="/about" component ={Home} onEnter={function(){
-                  document.getElementById("about-section").scrollIntoView();
-                  }
-              } />
-            <IndexRoute component={Home} />
+            <Route path="/contact" component ={Main} />
+            <Route path="/about" component ={Main}  />
+            <Route path="/home" component ={Main}  />
+            <Route path="/cm" component ={Main}  />
+
+            <IndexRoute component={Main} />
             <Redirect from ="*" to="/" />
         </Route>
     </Router>

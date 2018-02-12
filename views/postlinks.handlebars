@@ -1,0 +1,34 @@
+<div class='forms-container'>
+
+
+<form method="post" action= '/post-links' class='cm-form'>
+    <h2>POST A LINK HERE</h2>
+    <!-- so when there's  a post request it takes this as a path -->
+    <p>Title</p>
+    <textarea class='cm-input' type="text" name="title"></textarea>
+    <p>Description</p>
+    <textarea class='cm-input' type="text" name="description"></textarea>
+    <p>Link</p>
+    <textarea class='cm-input' type="text" name="link"></textarea>
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <br>
+    <br>
+    <button type="submit">Post Link</button>
+    <br>
+    <br>
+</form>
+<form method="post" action= '/upload-posts' class='cm-form'>
+    <h2>UPLOAD A POST HERE</h2>
+    <!-- so when there's  a post request it takes this as a path -->
+    <p>Post Title</p>
+    <textarea class='cm-input' type="text" name="title"></textarea>
+    <p>Description</p>
+    <textarea class='cm-input' type="text" name="description"></textarea>
+    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+    <br>
+    <br>
+    <button type="submit">Post Post</button>
+    <br>
+    <br>
+</form>
+</div>

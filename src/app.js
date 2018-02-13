@@ -59,7 +59,7 @@ render() {
     return (<div>
         <div id='nav'>
             {/* <Link to={'/cm'}>CM</Link> */}
-            <a href='/cm'>CM</a>
+            {/* <a href='/cm'>CM</a> */}
             <button type='button' onClick={(e) => {
                     scrollIntoView(document.getElementById("home-section"))
                 }}>Home</button>

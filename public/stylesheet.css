@@ -1,3 +1,6 @@
+body{
+    margin: 0px
+}
 #nav{
     position: fixed;
     display: flex;
@@ -11,6 +14,7 @@
 }
 #about-section{
     width: 100vw;
+    height:100%;
     background-color: #a2a0a0;
     display: flex;
     flex-wrap: wrap;
@@ -33,14 +37,22 @@
 }
 #work-section{
     width: 100vw;
-    height: 100vh;
-    background-color: #444444
+    height: 100%;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.white-font{
+    color:white;
 }
 
 #contact-section{
     width: 100vw;
     height: 100vh;
-    background-color: #000000
+    background-color: #e8e8e8
 }
 .forms-container{
     display: flex;
@@ -139,4 +151,156 @@ transition: transform 0.5s, perspective 0.5s;
     margin-left: 5vw;
     transform: rotateZ(-4deg);
 
+}
+
+/*WORK SECTION ELEMENT PLACEMENT*/
+.wrapper {
+  display: grid;
+  background-color: black;
+  grid-template-columns:  repeat(5, 140px);
+  grid-template-rows: repeat( 3, 150px);
+ padding-top: 10vh;
+  color: #444;
+}
+
+.box {
+
+  width:30vw
+}
+
+.mid-box {
+
+  width:18vw
+}
+
+.big-box {
+
+  width: 15vw;
+}
+
+
+
+.imagebunker{
+    width: 170px;
+    height: 0px;
+    background-color: white;
+    grid-column: 7 / 12;
+    grid-row: 1 / 5;
+    justify-self: flex-start;
+    visibility: hidden;
+
+    transition: height 1.5s;
+}
+.dubbing{
+    width: 170px;
+    height: 0px;
+    background-color: white;
+    grid-column: 2 /3;
+    grid-row: 1 / 5;
+    justify-self: flex-end;
+    visibility: hidden;
+
+    transition: height 1.5s;
+}
+.petition{
+    width: 170px;
+    height: 0px;
+    background-color: white;
+    grid-column: 3 / 2;
+    grid-row: 3 / 5;
+    justify-self: flex-end;
+    visibility: hidden;
+    transition: height 1.5s;
+}
+.trackshare{
+    width: 170px;
+    height: 0px;
+    background-color: white;
+    grid-column: 8 / 6;
+    grid-row: 2 / 5;
+    justify-self: flex-end;
+    visibility: hidden;
+    transition: height 1.5s;
+
+}
+.gitsearch{
+    width: 170px;
+    height: 0px;
+    background-color: white;
+    grid-column: 5 / 4;
+    grid-row: 3 / 5;
+    justify-self: flex-end;
+    visibility: hidden;
+    transition: height 1.5s;
+}
+.spotifyui{
+    width: 135px;
+    height: 0px;
+    background-color: white;
+    grid-column: 8 / 8;
+    grid-row: 3 / 3;
+    justify-self: baseline;
+    visibility: hidden;
+    transition: height 1.5s;
+}
+
+
+    .a:hover ~ .imagebunker { visibility: visible; height:150px}
+    .a:hover{opacity:1}
+    .b:hover ~ .trackshare { visibility: visible; height:150px}
+    .b:hover{opacity:1}
+    .c:hover ~ .dubbing { visibility: visible; height:150px;}
+    .c:hover{opacity:1}
+    .d:hover ~ .spotifyui { visibility: visible; height:120px }
+    .d:hover{opacity:1}
+    .e:hover ~ .petition { visibility: visible; height:110px}
+    .e:hover{opacity:1}
+    .f:hover ~ .gitsearch{ visibility: visible; height:100px }
+    .f:hover{opacity:1}
+
+.a {
+    grid-column: 5 / 6;
+    grid-row: 1 / 6;
+    justify-self: center;
+    opacity: 0.5;
+}
+
+
+.b {
+    grid-column: 6 / 2;
+    grid-row: 2 / 5;
+    justify-self: flex-end;
+    opacity: 0.5;
+
+}
+
+.c {
+    grid-column: 3 / 4;
+    grid-row: 1 / 6;
+    justify-self: auto;
+    opacity: 0.5;
+}
+
+.d {
+    grid-column: 8 / 5;
+    grid-row: 3 / 8;
+    /* grid-row-start: 1/3; */
+    justify-self: flex-end;
+    width:10vw;
+    opacity: 0.5;
+}
+
+.e {
+    grid-column: 2 / 10;
+    grid-row: 3 / 1;
+    align-self: self-end;
+    opacity: 0.5;
+}
+
+.f {
+    grid-column: 5 / 5;
+    grid-row: 3 / 5;opacity: 0.5;
+    justify-self: flex-end;
+    width:10vw;
+    opacity: 0.5;
 }

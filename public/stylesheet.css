@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family: 'Avenir';
+    font-family: 'Raleway', sans-serif;
 }
 #nav{
     position: fixed;
@@ -203,7 +203,7 @@ transition: transform 1s, perspective 1s;
     display: grid;
     background-color: black;
     grid-template-columns: repeat(9, 100px);
-    grid-template-rows: repeat( 5, 100px);
+    grid-template-rows: repeat( 6, 100px);
     padding-top: 10vh;
     color: #444;
 }

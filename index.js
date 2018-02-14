@@ -1,5 +1,5 @@
 const express = require('express');
-const hb = require ('express-handlebars');
+// const hb = require ('express-handlebars');
 const app = express();
 const compression = require('compression');
 const bodyParser = require('body-parser');
@@ -33,8 +33,8 @@ app.use(require("cookie-session")({
     maxAge: 1000 * 60 * 60 * 24,
 }));
 
-app.engine('handlebars', hb());
-app.set('view engine', 'handlebars');
+// app.engine('handlebars', hb());
+// app.set('view engine', 'handlebars');
 app.use(express.static('./public'));
 app.use(csurf());
 app.use(function(req, res, next){

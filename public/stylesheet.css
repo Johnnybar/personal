@@ -350,7 +350,7 @@ transition: transform 1s, perspective 1s;
 }
 
 .d {
-    grid-column: 9 / 9;
+    grid-column: 10 / 12;
         grid-row: 4 / 5;
     width: 11vw;
     opacity: 0.5;

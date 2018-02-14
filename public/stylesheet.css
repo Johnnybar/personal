@@ -297,7 +297,7 @@ transition: transform 1s, perspective 1s;
     height: 0px;
     font-size: 12px;
     background-color: white;
-    grid-column: 9 / 10;
+    grid-column: 10 / 10;
     grid-row: 5 / 5;
     justify-self: baseline;
     visibility: hidden;

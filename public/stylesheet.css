@@ -230,7 +230,7 @@ transition: transform 1s, perspective 1s;
     height: 0px;
     font-size: 12px;
     background-color: white;
-    grid-column: 13 / 14;
+    grid-column: 14 / 16;
     grid-row: 1 / 5;
     justify-self: flex-start;
     visibility: hidden;

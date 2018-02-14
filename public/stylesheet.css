@@ -1,11 +1,16 @@
 body{
-    margin: 0px
+    margin: 0px;
+    font-family: 'Avenir';
 }
 #nav{
     position: fixed;
     display: flex;
     flex-direction: row;
     left: 80vw;
+}
+
+.name-title{
+    margin:0;
 }
 #home-section{
     width: 100vw;
@@ -27,6 +32,8 @@ body{
     width: 100%;
     height: 100vh;
     justify-content: space-between;
+    margin: 20px;
+
 }
 .about-bottom{
     display: flex;
@@ -66,10 +73,10 @@ body{
 height: 30vh;
 }
 .about-me{
-
+width:25vw;
 }
 .skills{
-
+width:25vw;
 }
 .all-links{
 
@@ -89,50 +96,73 @@ height: 30vh;
 
 }
 
-/* @-webkit-keyframes move {
+@-webkit-keyframes move {
     0% {
 
     }
-    100% {
-        /* transform: rotateY(-180deg); */
-        /* width: 10px; */
-        /* margin-left: -5px; */
 
-    /* } */
-/* } */
- /*
-/* @-webkit-keyframes moveLine {
+    100% {
+        transform: rotateY(-183deg);
+        margin-right: 10px;
+        width: 1px;
+
+     }
+}
+@-webkit-keyframes movePerspective {
     0% {
 
     }
+
     100% {
-    }
-} */
+        transform: rotateY(-272deg);
+        perspective: 90px;
+
+     }
+}
+
 .line{
-    height: 280px;
-width: 38px;
-margin-right: -12px;
-background-color: black;
-transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
-transition: transform 0.5s, margin-right 0.5s;
+        height: 280px;
+    width: 38px;
+    margin-right: -12px;
+    background-color: black;
+    transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
+    /* transition: animation 1s; */
+    transition: transform 1s, margin-right 1s;
+    animation: move 1s backwards;
 }
 .line-perspective{
     perspective: 19px;
-transform: rotateY(-289deg);
-width: 18px;
-transition: transform 0.5s, perspective 0.5s;
+    transform: rotateY(-289deg);
+    width: 18px;
+transition: transform 1s, perspective 1s;
+/* transition: animation 1s; */
+    animation: movePerspective 1s backwards;
 }
 
+
 .line-perspective:hover{
+    animation-fill-mode: forwards;
     /* animation: move 0.5s ease-in-out; */
-    transform: rotateY(-272deg);
-    perspective: 90px;
+    /* transform: rotateY(-272deg);
+    perspective: 90px; */
 }
 
 .line:hover{
+    animation-fill-mode: forwards;
     /* animation: moveLine 0.5s ease-in-out; */
-    transform: rotateY(-230deg);
-    margin-right: 10px;
+    /* transform: rotateY(-230deg);
+    margin-right: 10px; */
+}
+
+.two{
+    animation-name: move;
+  animation-duration: 1s;
+  animation-play-state: paused;
+  animation-fill-mode: both;
+}
+
+.two:hover{
+    animation-play-state: running;
 }
 
 /* .container-under-and-lines:hover > .under-line { opacity: 1; } */
@@ -140,27 +170,42 @@ transition: transform 0.5s, perspective 0.5s;
 .container-under-and-lines{
     display: flex;
     justify-content: center;
-    margin-top: 30vh;
+    margin-top: 10vh;
 
 }
 .under-line{
-    opacity: 1;
+    opacity: 0.5;
     width: 350px;
     height: 240px;
     position: absolute;
-    margin-left: 5vw;
-    transform: rotateZ(-4deg);
+    margin-left: 2vw;
+
 
 }
 
+@-webkit-keyframes flash {
+    0% {
+
+    }
+
+    100% {
+        opacity: 1;
+
+     }
+}
+
+.under-line:hover{
+    animation: flash 0.5s ease forwards;
+    animation-iteration-count: infinite;
+}
 /*WORK SECTION ELEMENT PLACEMENT*/
 .wrapper {
-  display: grid;
-  background-color: black;
-  grid-template-columns:  repeat(5, 140px);
-  grid-template-rows: repeat( 3, 150px);
- padding-top: 10vh;
-  color: #444;
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(9, 100px);
+    grid-template-rows: repeat( 5, 100px);
+    padding-top: 10vh;
+    color: #444;
 }
 
 .box {
@@ -183,8 +228,9 @@ transition: transform 0.5s, perspective 0.5s;
 .imagebunker{
     width: 170px;
     height: 0px;
+    font-size: 12px;
     background-color: white;
-    grid-column: 7 / 12;
+    grid-column: 9 / 9;
     grid-row: 1 / 5;
     justify-self: flex-start;
     visibility: hidden;
@@ -194,8 +240,9 @@ transition: transform 0.5s, perspective 0.5s;
 .dubbing{
     width: 170px;
     height: 0px;
+    font-size: 12px;
     background-color: white;
-    grid-column: 2 /3;
+    grid-column: 1 /4;
     grid-row: 1 / 5;
     justify-self: flex-end;
     visibility: hidden;
@@ -205,30 +252,32 @@ transition: transform 0.5s, perspective 0.5s;
 .petition{
     width: 170px;
     height: 0px;
+    font-size: 12px;
     background-color: white;
-    grid-column: 3 / 2;
-    grid-row: 3 / 5;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
     justify-self: flex-end;
     visibility: hidden;
     transition: height 1.5s;
 }
 .trackshare{
     width: 170px;
+    font-size: 12px;
     height: 0px;
     background-color: white;
-    grid-column: 8 / 6;
+    grid-column: 8 / 9;
     grid-row: 2 / 5;
-    justify-self: flex-end;
     visibility: hidden;
     transition: height 1.5s;
 
 }
 .gitsearch{
-    width: 170px;
+    width: 135px;
     height: 0px;
+    font-size: 12px;
     background-color: white;
-    grid-column: 5 / 4;
-    grid-row: 3 / 5;
+    grid-column: 6 / 9;
+    grid-row: 5 / 5;
     justify-self: flex-end;
     visibility: hidden;
     transition: height 1.5s;
@@ -236,71 +285,106 @@ transition: transform 0.5s, perspective 0.5s;
 .spotifyui{
     width: 135px;
     height: 0px;
+    font-size: 12px;
     background-color: white;
-    grid-column: 8 / 8;
-    grid-row: 3 / 3;
+    grid-column: 9 / 10;
+    grid-row: 5 / 5;
     justify-self: baseline;
     visibility: hidden;
-    transition: height 1.5s;
+    transition: height 0.5s;
 }
 
 
-    .a:hover ~ .imagebunker { visibility: visible; height:150px}
+    .a:hover ~ .imagebunker { visibility: visible; height:130px}
     .a:hover{opacity:1}
-    .b:hover ~ .trackshare { visibility: visible; height:150px}
+    .imagebunker:hover { visibility: visible;height:130px }
+    .b:hover ~ .trackshare { visibility: visible; height:130px}
     .b:hover{opacity:1}
-    .c:hover ~ .dubbing { visibility: visible; height:150px;}
+    .trackshare:hover { visibility: visible;height:130px }
+    .c:hover ~ .dubbing { visibility: visible; height:170px;}
     .c:hover{opacity:1}
-    .d:hover ~ .spotifyui { visibility: visible; height:120px }
+    .dubbing:hover { visibility: visible; height:170px;}
+    .d:hover ~ .spotifyui { visibility: visible; height:90px }
     .d:hover{opacity:1}
+    .spotifyui:hover { visibility: visible; height:90px }
     .e:hover ~ .petition { visibility: visible; height:110px}
     .e:hover{opacity:1}
-    .f:hover ~ .gitsearch{ visibility: visible; height:100px }
+    .petition:hover { visibility: visible; height:110px}
+    .f:hover ~ .gitsearch{ visibility: visible; height:90px }
     .f:hover{opacity:1}
+    .gitsearch:hover{ visibility: visible; height:90px }
 
+.box-text{
+    padding: 5px;
+}
 .a {
-    grid-column: 5 / 6;
-    grid-row: 1 / 6;
+    grid-column: 7 / 8;
+    grid-row: 1 / 2;
     justify-self: center;
     opacity: 0.5;
 }
 
 
 .b {
-    grid-column: 6 / 2;
-    grid-row: 2 / 5;
-    justify-self: flex-end;
+    grid-column: 6 / 8;
+    grid-row: 2 / 4;
+    justify-self: safe;
     opacity: 0.5;
-
 }
 
 .c {
-    grid-column: 3 / 4;
-    grid-row: 1 / 6;
+    grid-column: 4 / 6;
+    grid-row: 1 / 3;
     justify-self: auto;
     opacity: 0.5;
 }
 
 .d {
-    grid-column: 8 / 5;
-    grid-row: 3 / 8;
-    /* grid-row-start: 1/3; */
-    justify-self: flex-end;
-    width:10vw;
+    grid-column: 9 / 9;
+        grid-row: 4 / 5;
+    width: 11vw;
     opacity: 0.5;
+    align-self: self-end;
 }
 
 .e {
-    grid-column: 2 / 10;
-    grid-row: 3 / 1;
+    grid-column: 2 / 5;
+    grid-row: 4 / 1;
     align-self: self-end;
     opacity: 0.5;
 }
 
 .f {
-    grid-column: 5 / 5;
-    grid-row: 3 / 5;opacity: 0.5;
-    justify-self: flex-end;
-    width:10vw;
+    grid-column: 5 / 9;
+    grid-row: 4 / 5;
     opacity: 0.5;
+    justify-self: flex-end;
+    width: 10vw;
+    align-self: self-end;
+
+}
+
+.g {
+    grid-column: 8 / 9;
+    grid-row: 1 / 4;
+    opacity: 0.5;
+    width: 10vw;
+    align-self: self-end;
+
+}
+
+/*Contact Section*/
+
+.contact-form-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+}
+
+#text-area-contact{
+    margin: 20px;
+width: 50vw;
+height: 30vh;
 }

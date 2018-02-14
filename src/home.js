@@ -17,77 +17,87 @@ export default class Home extends React.Component{
         return(
             <div id='home-section'>
                 <div className='container-under-and-lines'>
-                <img src='./jb.png' className='under-line' />
+                <img src='./logo.png' className='under-line' />
 
                 <div className='lines-container'>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
                     <div className='each-line'>
-                        <div className='line-perspective'>
-                            <div className='line'></div>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
                         </div>
                     </div>
 

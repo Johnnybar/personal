@@ -74,7 +74,11 @@ render() {
                 }}>Contact</button>
 
         </div>
-        <div id='home-section'>This is App
+        <div id='home-section'>
+            <div className='name-title white-font'>
+                <h4 className='name-title'>Johnny_B</h4>
+                <h5>Content And Design Aficionado</h5>
+            </div>
             {/* RENDERING SpotifyWebApi ELEMENTS */}
          {/* <div className="App">
             <a href='http://localhost:8080/'>Login to Spotify</a>

@@ -255,7 +255,7 @@ transition: transform 1s, perspective 1s;
     font-size: 12px;
     background-color: white;
     grid-column: 3 / 4;
-    grid-row: 4 / 5;
+    grid-row: 5 / 7;
     justify-self: flex-end;
     visibility: hidden;
     transition: height 1.5s;
@@ -307,9 +307,9 @@ transition: transform 1s, perspective 1s;
     .d:hover ~ .spotifyui { visibility: visible; height:90px }
     .d:hover{opacity:1}
     .spotifyui:hover { visibility: visible; height:90px }
-    .e:hover ~ .petition { visibility: visible; height:110px}
+    .e:hover ~ .petition { visibility: visible; height:100px}
     .e:hover{opacity:1}
-    .petition:hover { visibility: visible; height:110px}
+    .petition:hover { visibility: visible; height:100px}
     .f:hover ~ .gitsearch{ visibility: visible; height:90px }
     .f:hover{opacity:1}
     .gitsearch:hover{ visibility: visible; height:90px }
@@ -349,7 +349,7 @@ transition: transform 1s, perspective 1s;
 
 .e {
     grid-column: 2 / 5;
-    grid-row: 4 / 1;
+    grid-row: 5 / 1;
     align-self: self-end;
     opacity: 0.5;
 }

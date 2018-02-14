@@ -51,6 +51,16 @@ body{
     justify-content: center;
 
 }
+button{
+    -webkit-box-shadow: inset 0px 50px 0px -15px #0a0909;
+    -moz-border-radius: 7px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 12px;
+    border: none;
+    text-decoration: none;
+    text-shadow: 3px 2px 0px #000000;
+}
 
 .white-font{
     color:white;

@@ -39,7 +39,7 @@ class About extends React.Component{
                 <div className='each-link'>
                     <h5>{eachLink.title}</h5>
                     <h5>{eachLink.description}</h5>
-                    <a href={eachLink.link}><h5>{eachLink.link}</h5></a>
+                    <a href={'//'+eachLink.link} target="_blank"><h5>{eachLink.link}</h5></a>
                     {/* <p>HELLLO</p> */}
                 </div>
             )

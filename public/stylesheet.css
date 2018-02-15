@@ -290,7 +290,7 @@
     font-size: 12px;
     background-color: white;
     grid-column: 9 / 9;
-    grid-row: 5 / 5;
+    grid-row: 6 / 6;
     justify-self: flex-end;
     visibility: hidden;
     transition: height 1.5s;
@@ -301,7 +301,7 @@
         font-size: 12px;
         background-color: white;
         grid-column: 10 / 12;
-        grid-row: 5 / 5;
+        grid-row: 6 / 6;
         justify-self: center;
         visibility: hidden;
         transition: height 0.5s;
@@ -314,9 +314,9 @@
         .b:hover ~ .trackshare { visibility: visible; height:130px}
         .b:hover{opacity:1}
         .trackshare:hover { visibility: visible;height:130px }
-        .c:hover ~ .dubbing { visibility: visible; height:170px;}
+        .c:hover ~ .dubbing { visibility: visible; height:180px;}
         .c:hover{opacity:1}
-        .dubbing:hover { visibility: visible; height:170px;}
+        .dubbing:hover { visibility: visible; height:180px;}
         .d:hover ~ .spotifyui { visibility: visible; height:90px }
         .d:hover{opacity:1}
         .spotifyui:hover { visibility: visible; height:90px }
@@ -354,7 +354,7 @@
 
     .d {
         grid-column: 10 / 10;
-    grid-row: 4 / 5;
+    grid-row: 5 / 5;
     width: 11vw;
     opacity: 0.5;
     align-self: self-end;
@@ -370,7 +370,7 @@
 
     .f {
         grid-column: 3 / 10;
-    grid-row: 4 / 5;
+    grid-row: 5 / 5;
     opacity: 0.5;
     justify-self: flex-end;
     width: 10vw;
@@ -379,7 +379,7 @@
 
     .g {
         grid-column: 10 / 10;
-        grid-row: 1 / 4;
+        grid-row: 4 / 4;
         opacity: 0.5;
         width: 10vw;
         align-self: self-end;
@@ -696,7 +696,7 @@ height: 0px;
 font-size: 12px;
 background-color: white;
 grid-column: 9 / 9;
-grid-row: 5 / 5;
+grid-row: 6 / 6;
 justify-self: flex-end;
 visibility: hidden;
 transition: height 1.5s;
@@ -707,7 +707,7 @@ transition: height 1.5s;
     font-size: 12px;
     background-color: white;
     grid-column: 10 / 12;
-    grid-row: 5 / 5;
+    grid-row: 6 / 6;
     justify-self: center;
     visibility: hidden;
     transition: height 0.5s;
@@ -720,9 +720,9 @@ transition: height 1.5s;
     .b:hover ~ .trackshare { visibility: visible; height:130px}
     .b:hover{opacity:1}
     .trackshare:hover { visibility: visible;height:130px }
-    .c:hover ~ .dubbing { visibility: visible; height:170px;}
+    .c:hover ~ .dubbing { visibility: visible; height:180px;}
     .c:hover{opacity:1}
-    .dubbing:hover { visibility: visible; height:170px;}
+    .dubbing:hover { visibility: visible; height:180px;}
     .d:hover ~ .spotifyui { visibility: visible; height:90px }
     .d:hover{opacity:1}
     .spotifyui:hover { visibility: visible; height:90px }
@@ -760,7 +760,7 @@ transition: height 1.5s;
 
 .d {
     grid-column: 10 / 10;
-grid-row: 4 / 5;
+grid-row: 5 / 5;
 width: 11vw;
 opacity: 0.5;
 align-self: self-end;
@@ -776,7 +776,7 @@ justify-self: center;
 
 .f {
     grid-column: 3 / 10;
-grid-row: 4 / 5;
+grid-row: 5 / 5;
 opacity: 0.5;
 justify-self: flex-end;
 width: 10vw;
@@ -785,7 +785,7 @@ align-self: self-end;
 
 .g {
     grid-column: 10 / 10;
-    grid-row: 1 / 4;
+    grid-row: 4 / 4;
     opacity: 0.5;
     width: 10vw;
     align-self: self-end;
@@ -895,7 +895,7 @@ transition: height 1.5s;
 .dubbing:hover { visibility: visible; height:80px;}
 .d {
     grid-column: 10 / 12;
-        grid-row: 4 / 5;
+        grid-row: 5 / 5;
     width: 11vw;
     opacity: 0.5;
     align-self: self-end;
@@ -906,7 +906,7 @@ transition: height 1.5s;
     font-size: 7px;
     background-color: white;
     grid-column: 10 / 10;
-    grid-row: 5 / 5;
+    grid-row: 6 / 6;
     justify-self: baseline;
     visibility: hidden;
     transition: height 0.5s;
@@ -936,7 +936,7 @@ transition: height 1.5s;
 .petition:hover { visibility: visible; height:50px}
 .f {
     grid-column: 5 / 9;
-    grid-row: 4 / 5;
+    grid-row: 5 / 5;
     opacity: 0.5;
     justify-self: flex-end;
     width: 10vw;
@@ -948,7 +948,7 @@ transition: height 1.5s;
     font-size: 7px;
     background-color: white;
     grid-column: 6 / 9;
-    grid-row: 5 / 5;
+    grid-row: 6 / 6;
     justify-self: flex-end;
     visibility: hidden;
     transition: height 1.5s;
@@ -958,7 +958,7 @@ transition: height 1.5s;
 .gitsearch:hover{ visibility: visible; height:50px }
 .g {
     grid-column: 9 / 9;
-    grid-row: 1 / 4;
+    grid-row: 4 / 4;
     opacity: 0.5;
     width: 10vw;
     align-self: self-end;
@@ -1078,7 +1078,7 @@ transition: height 1.5s;
 .dubbing:hover { visibility: visible; height:80px;}
 .d {
     grid-column: 10 / 12;
-        grid-row: 4 / 5;
+        grid-row: 5 / 5;
     width: 11vw;
     opacity: 0.5;
     align-self: self-end;
@@ -1089,7 +1089,7 @@ transition: height 1.5s;
     font-size: 7px;
     background-color: white;
     grid-column: 10 / 10;
-    grid-row: 5 / 5;
+    grid-row: 6 / 6;
     justify-self: baseline;
     visibility: hidden;
     transition: height 0.5s;
@@ -1119,7 +1119,7 @@ transition: height 1.5s;
 .petition:hover { visibility: visible; height:50px}
 .f {
     grid-column: 5 / 9;
-    grid-row: 4 / 5;
+    grid-row: 5 / 5;
     opacity: 0.5;
     justify-self: flex-end;
     width: 10vw;
@@ -1131,7 +1131,7 @@ transition: height 1.5s;
     font-size: 7px;
     background-color: white;
     grid-column: 6 / 9;
-    grid-row: 5 / 5;
+    grid-row: 6 / 6;
     justify-self: flex-end;
     visibility: hidden;
     transition: height 1.5s;
@@ -1141,7 +1141,7 @@ transition: height 1.5s;
 .gitsearch:hover{ visibility: visible; height:50px }
 .g {
     grid-column: 9 / 9;
-    grid-row: 1 / 4;
+    grid-row: 4 / 4;
     opacity: 0.5;
     width: 10vw;
     align-self: self-end;

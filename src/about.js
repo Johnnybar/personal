@@ -37,9 +37,9 @@ class About extends React.Component{
                 // console.log(eachLink);
 
                 <div className='each-link'>
-                    <p>{eachLink.title}</p>
-                    <p>{eachLink.description}</p>
-                    <a href={eachLink.link}>{eachLink.link}</a>
+                    <h5>{eachLink.title}</h5>
+                    <h5>{eachLink.description}</h5>
+                    <a href={eachLink.link}><h5>{eachLink.link}</h5></a>
                     {/* <p>HELLLO</p> */}
                 </div>
             )
@@ -49,8 +49,8 @@ class About extends React.Component{
             postsList = posts.map(eachPost=>
                 // console.log(eachLink);
                 <div className='each-post'>
-                    <p>{eachPost.title}</p>
-                    <p>{eachPost.description}</p>
+                    <h5>{eachPost.title}</h5>
+                    <h5>{eachPost.description}</h5>
                 </div>
             )
 

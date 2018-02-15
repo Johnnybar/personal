@@ -25,7 +25,7 @@ exports.postLink =function(title, description, link) {
 
 exports.getLinks =function() {
     return db.query(
-        'SELECT title, description, link FROM links order by id desc limit 4;'
+        'SELECT title, description, link FROM links order by id desc limit 5;'
     ).then((results) => {
         return results.rows;
     });

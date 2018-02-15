@@ -36,33 +36,33 @@ class About extends React.Component{
             linksList = links.map(eachLink=>
                 // console.log(eachLink);
 
-                <div className='each-link'>
-                    <h5>{eachLink.title}</h5>
-                    <h5>{eachLink.description}</h5>
-                    <a href={'//'+eachLink.link} target="_blank"><h5>{eachLink.link}</h5></a>
+                <ul className='each-link'>
+                    <li>{eachLink.title}</li>
+                    <li>{eachLink.description}</li>
+                    <a href={'//'+eachLink.link} target="_blank"><li>{eachLink.link}</li></a>
                     {/* <p>HELLLO</p> */}
-                </div>
+                </ul>
             )
         }
         if(posts){
             // console.log('hello');
             postsList = posts.map(eachPost=>
                 // console.log(eachLink);
-                <div className='each-post'>
-                    <h5>{eachPost.title}</h5>
-                    <h5>{eachPost.description}</h5>
-                </div>
+                <ul className='each-post'>
+                    <li>{eachPost.title}</li>
+                    <li>{eachPost.description}</li>
+                </ul>
             )
 
         }
         return(
             <div id='about-section'>
                 <div className='about-top'>
-                <div className='about-me'><h1>This is about me</h1>
+                <div className='about-me'><h2>About me</h2>
                 <h4>I’m a language expert turned JavaScript developer. I've gotten good at learning and spend most of my life trying to find time to make music.</h4>
                 <h4>I am currently looking to develop and use my skill set as a developer, and have a natural inclination towards design, content and music.</h4>
             </div>
-                <div className='skills'><h1>Description of what I do</h1>
+                <div className='skills'><h2>What I do</h2>
                 <h4>JavaScript | ReactJs | Redux | Node.js | HTML (5/6) & CSS(3) | PostgreSQL | RESTful APIs | AngularJs | jQuery | Express.js | Handlebars.js | Socket.io </h4>
                 <h4>Adobe Photoshop | Adobe Illustrator</h4>
 
@@ -74,11 +74,11 @@ class About extends React.Component{
                 <div className='about-bottom'>
 
                 <div className='all-links'>
-                    <h4>My Current favourite links</h4>
+                    <h2>My Current favourite links</h2>
                     {linksList}
                 </div>
                 <div className='all-posts'>
-                    <h4>Blog posts and whatever's <br/>not directly JS-related</h4>
+                    <h2>Posts and things <br/>not directly JS-related</h2>
                     {postsList}
                 </div>
             </div>

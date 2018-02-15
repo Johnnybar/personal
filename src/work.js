@@ -16,7 +16,7 @@ export default class Work extends React.Component{
     render(){
         return(
             <div id='work-section'>
-                <h1 className='white-font' style={{textAlign:'center'}}>My Work So Far</h1>
+                <h1 style={{textAlign:'left', color:'grey', marginLeft:'5px'}}>My Work So Far</h1>
                 <div className = "wrapper" >
                         <img className="box a" src='./imagebunker.png'/>
                     <div className='box-text imagebunker'>An Instagram-like website where users can upload their images and comment on other users' images. Click <a href='https://imagebunker.herokuapp.com/#/home' target="_blank">here</a> to check website out or <a href='https://github.com/Johnnybar/imageboard' target="_blank">here</a> to see source code</div>
@@ -27,6 +27,7 @@ export default class Work extends React.Component{
                     <img className="box e" src='./petition.png'/>
                     <div className='box-text petition'>An online petition that allows users to register, manage their profile, sign a petition and see who else signed. Click <a href='https://j-petition.herokuapp.com/register'>here</a> to check website out or <a href='https://github.com/Johnnybar/petition'>here</a> to see source code</div>
                         <img className="box g" src='./mini.png'/>
+                        <div className='down-arrow'>▼</div>
                         <img className="big-box d" src='./spotifyui.png'/>
                     <div className='box-text spotifyui'>A mini-Spotify UI to search for and play music from albums and artists. Click <a href='https://github.com/Johnnybar/mini-projects/tree/master/spotifyApiSearch' target="_blank">here</a> to see source code</div>
                         <img className="big-box f" src='./gitsearch.png'/>

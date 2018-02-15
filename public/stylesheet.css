@@ -277,7 +277,7 @@
     font-size: 12px;
     height: 0px;
     background-color: white;
-    grid-column: 10 / 11;
+    grid-column: 9 / 11;
     grid-row: 2 / 5;
     visibility: hidden;
     transition: height 1.5s;
@@ -683,7 +683,7 @@ color: #444;
 font-size: 12px;
 height: 0px;
 background-color: white;
-grid-column: 10 / 11;
+grid-column: 9 / 11;
 grid-row: 2 / 5;
 visibility: hidden;
 transition: height 1.5s;

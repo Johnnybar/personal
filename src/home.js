@@ -100,6 +100,66 @@ export default class Home extends React.Component{
                             <div className='line two'></div>
                         </div>
                     </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
+                    <div className='each-line'>
+                        <div className='line-perspective two'>
+                            <div className='line two'></div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

@@ -16,8 +16,8 @@ export default class Contact extends React.Component{
         return(
             <div id='contact-section'>
 
-                <form className='contact-form-container' target="_blank"  action="mailto:johnnybareket@gmail.com" method="post" enctype="text/plain" >
-                <br/><div className='paint-white-bg'>Wanna work together? Like what you see? Did I gain some weight? Let me know!</div><br/>
+                <form className='contact-form-container paint-font-black' target="_blank"  action="mailto:johnnybareket@gmail.com" method="post" enctype="text/plain" >
+                <br/><div className='paint-font-black'>Wanna work together? Like what you see? Did I gain some weight? Let me know!</div><br/>
                 Full Name: <input type="text" name="FullName" placeholder='Full Name'></input>
                     Email:<input type="text" name="Email" placeholder='Email Address'></input>
                         Subject:<input type="text" name="Subject" placeholder='Subject'></input>

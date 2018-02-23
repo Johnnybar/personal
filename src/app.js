@@ -75,9 +75,9 @@ render() {
 
         </div>
         <div id='home-section'>
-            <div className='name-title white-font'>
-                <h3 className='name-title'>Johnny_B</h3>
-                <h4>Content And Design Aficionado</h4>
+            <div className='name-title white-font' >
+                <div>Johnny_B</div>
+                <div>Content And Design Enthusiast</div>
             </div>
             {/* RENDERING SpotifyWebApi ELEMENTS */}
          {/* <div className="App">

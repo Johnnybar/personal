@@ -79,11 +79,11 @@ class About extends React.Component{
                 <div className='about-bottom'>
 
                 <div className='all-links'>
-                    <h2 className='links-posts-title'>My Current favourite articles</h2>
+                    <h2 className='links-posts-title'>Recently favourited articles</h2>
                     {linksList}
                 </div>
                 <div className='all-posts posts-list'>
-                    <h2 className='links-posts-title'>favourite Sites At The Moment</h2>
+                    <h2 className='links-posts-title'>Helpful, inspirational sites</h2>
                     {postsList}
                 </div>
             </div>

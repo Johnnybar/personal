@@ -11,9 +11,9 @@ export default class Home extends React.Component{
     }
 
     componentDidMount() {
-
     }
     render(){
+
         return(
             <div id='home-section'>
                 <div className='container-under-and-lines'>
@@ -163,7 +163,7 @@ export default class Home extends React.Component{
 
                 </div>
             </div>
-
+            
             </div>
         )
     }

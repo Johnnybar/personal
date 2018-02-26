@@ -27,6 +27,7 @@ export default class App extends React.Component {
     }
 
     componentDidMount() {
+        
 // console.log('this is state and token: ',this.state, params);
 
     }

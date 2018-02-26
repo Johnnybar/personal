@@ -424,7 +424,11 @@ a { text-decoration: none; color:white}
     }
 
 }
-
+/* ////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width: 1399px) {
 
 body{
@@ -433,6 +437,9 @@ body{
     font-weight: 400;
     color:#d7d7d7;
 }
+
+
+
 .navi{
     margin-top: 15px;
 }
@@ -470,8 +477,11 @@ body{
 }
 
 iframe{
-        border: 0.25px;
-            margin-top: 30px;
+    border: 0.25px;
+    margin-top: 30px;
+}
+.text-highlight{
+    color:red;
 }
 
 .about-title{
@@ -486,6 +496,8 @@ iframe{
     letter-spacing: 0.5px;
     font-weight: lighter;
 }
+
+
 .about-top{
     display: flex;
     flex-wrap: wrap;
@@ -493,18 +505,20 @@ iframe{
     height: 75vh;
     justify-content: space-between;
     margin-top: 30px;
+    padding: 25px 0 60px!important;
 
 }
 .about-bottom{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    height: 80vh;
+    height: 100%;
     justify-content: normal;
     border-top: 1px solid #d7d7d7;
+        padding: 25px 0 60px!important;
 }
 .posts-list{
-margin-left: 148px;;
+margin-left: 73px;;
 }
 #work-section{
     width: 100vw;
@@ -555,9 +569,27 @@ width:25vw;
 }
 .all-links{
 
+    margin-top: 1rem;
+        margin-bottom: 0;
+    width: 31%;
 }
 .all-posts{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    width: 31%;
 
+}
+
+.links-posts-title{
+    font-size: 16px;
+    margin-top: 22px;
+    padding-bottom: 14px;
+    line-height: 0;
+}
+.links-posts-content{
+    font-size: 14px;
+line-height: .9rem;
+display: inline;
 }
 .spotify-container{
 
@@ -602,8 +634,8 @@ width:25vw;
 }
 
 .line{
-        height: 90vh;
-    width: 38px;
+    height: 90vh;
+    width: 40px;
     margin-right: -12px;
     background-color: #171717;
     transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
@@ -611,10 +643,11 @@ width:25vw;
     transition: transform 1s, margin-right 1s;
     animation: move 1s backwards;
 }
+
 .line-perspective{
     perspective: 19px;
     transform: rotateY(-289deg);
-    width: 18px;
+    width: 21px;
     transition: transform 1s, perspective 1s;
 /* transition: animation 1s; */
     animation: movePerspective 1s backwards;
@@ -623,25 +656,21 @@ width:25vw;
 
 .line-perspective:hover{
     animation-fill-mode: forwards;
-    /* animation: move 0.5s ease-in-out; */
-    /* transform: rotateY(-272deg);
-    perspective: 90px; */
+
 }
 
 .line:hover{
     animation-fill-mode: forwards;
 
-    /* animation: moveLine 0.5s ease-in-out; */
-    /* transform: rotateY(-230deg);
-    margin-right: 10px; */
 }
 
 .two{
     animation-name: move;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-play-state: paused;
   animation-fill-mode: both;
   /* border:1px dashed white; */
+
 }
 
 .two:hover{
@@ -671,7 +700,7 @@ width:25vw;
 
     }
     50%{
-        filter:contrast(200%) brightness(150%) hue-rotate(90deg) blur(10px)
+        filter:brightness(150%)  blur(10px)
 
     }
 

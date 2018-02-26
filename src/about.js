@@ -21,7 +21,7 @@ class About extends React.Component{
     }
 
     componentDidMount() {
-        console.log('before dispatch');
+        // console.log('before dispatch');
         this.props.dispatch(getLinks());
         this.props.dispatch(getPosts());
 
@@ -36,10 +36,12 @@ class About extends React.Component{
             linksList = links.map(eachLink=>
                 // console.log(eachLink);
 
-<div>
-                    <div className='about-description'>{eachLink.title}</div>
-                    <div className='about-description'>{eachLink.description}</div>
-                    <a className='about-description' href={'//'+eachLink.link} target="_blank"><div className='about-description'>{eachLink.link}</div></a>
+<div><br/>
+                    <a className='about-description links-posts-content' href={'//'+eachLink.link} target="_blank"><div className='about-description links-posts-content text-highlight'>{eachLink.title}</div></a>
+                    <br/>
+                    <div className='about-description links-posts-content'>{eachLink.description}</div>
+                    <br/>
+
                     {/* <p>HELLLO</p> */}
                     </div>
 
@@ -50,8 +52,10 @@ class About extends React.Component{
             postsList = posts.map(eachPost=>
                 // console.log(eachLink);
                 <div>
-                    <div className='about-description'>{eachPost.title}</div>
-                    <div className='about-description'>{eachPost.description}</div>
+                    <br/>
+                    <a className='about-description links-posts-content' href={'//'+eachPost.link} target="_blank"><div className='about-description links-posts-content text-highlight'>{eachPost.title}</div></a>
+                    <br/>
+                    <div className='about-description links-posts-content'>{eachPost.description}</div>
                 </div>
             )
 
@@ -75,11 +79,11 @@ class About extends React.Component{
                 <div className='about-bottom'>
 
                 <div className='all-links'>
-                    <h2 p className='about-title'>My Current <br/>favourite links</h2>
+                    <h2 className='links-posts-title'>My Current favourite articles</h2>
                     {linksList}
                 </div>
                 <div className='all-posts posts-list'>
-                    <h2 className='about-title'>Posts and things <br/>not directly JS-related</h2>
+                    <h2 className='links-posts-title'>favourite Sites At The Moment</h2>
                     {postsList}
                 </div>
             </div>

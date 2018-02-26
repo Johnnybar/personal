@@ -4,7 +4,7 @@ import axios from './axios';
 export const getLinks = function() {
     // console.log('in actions');
     return axios.get('/get-links').then((results)=>{
-        console.log('this is results.data ', results.data);
+        // console.log('this is results.data ', results.data);
         return {
             type:'GET_LINKS',
             links:results.data

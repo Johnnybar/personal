@@ -1,4 +1,4 @@
--- DROP TABLE IF EXISTS links;
+DROP TABLE IF EXISTS posts;
 
 
 CREATE TABLE links(
@@ -14,6 +14,7 @@ CREATE TABLE posts(
     id SERIAL PRIMARY KEY,
     title VARCHAR(300) NOT NULL,
     description text NOT NULL,
+    link VARCHAR(300) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP
 );

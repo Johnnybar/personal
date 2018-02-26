@@ -12,7 +12,7 @@ import axios from './axios'
 
 export default class Main extends React.Component{
     constructor(props){
-        super(props) 
+        super(props)
         this.state={}
 
     }
@@ -20,7 +20,7 @@ export default class Main extends React.Component{
 
     componentDidMount() {
 
-
+        
 
     }
     render(){

@@ -152,18 +152,18 @@ app.get('/cm', csrfSecurity, (req, res)=>{
 
 });
 
-app.post('/post-links', csrfSecurity, function(req, res){
-    console.log('hello',req.body);
-    db.postLink(req.body.title, req.body.description, req.body.link);
-    res.redirect('/');
-
-});
-app.post('/upload-posts', csrfSecurity, function(req, res){
-    // console.log('hello',req.body);
-    db.uploadPost(req.body.title, req.body.description);
-    res.redirect('/');
-
-});
+// app.post('/post-links', csrfSecurity, function(req, res){
+//     console.log('hello',req.body);
+//     db.postLink(req.body.title, req.body.description, req.body.link);
+//     res.redirect('/');
+//
+// });
+// app.post('/upload-posts', csrfSecurity, function(req, res){
+//     // console.log('hello',req.body);
+//     db.uploadPost(req.body.title, req.body.description);
+//     res.redirect('/');
+//
+// });
 
 app.get('/get-links', (req,res)=>{
     db.getLinks().then((result)=>{

@@ -342,7 +342,7 @@ animation-play-state: running;
 }
 
 .under-line:hover{
-    animation: flash 1s ease-in infinite;
+    animation: flash 0.7s ease-in infinite;
     animation-iteration-count: 3;
 
 }
@@ -934,7 +934,7 @@ animation-play-state: running;
 }
 
 .under-line:hover{
-    animation: flash 1s ease-in infinite;
+    animation: flash 0.7s ease-in infinite;
     animation-iteration-count: 3;
 
 }
@@ -1528,7 +1528,7 @@ height: 30vh;
     }
 
     .under-line:hover{
-        animation: flash 1s ease-in infinite;
+        animation: flash 0.7s ease-in infinite;
         animation-iteration-count: 3;
 
     }
@@ -2119,7 +2119,7 @@ height: 30vh;
     }
 
     .under-line:hover{
-        animation: flash 1s ease-in infinite;
+        animation: flash 0.7s ease-in infinite;
         animation-iteration-count: 3;
 
     }

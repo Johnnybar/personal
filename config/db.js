@@ -14,15 +14,15 @@ else{
 var db = spicedPg(dbUrl);
 
 
-exports.postLink =function(title, description, link) {
-    return db.query(
-        'INSERT INTO links (title, description, link) VALUES ($1, $2, $3)',
-        [title, description, link]
-    ).then((results) => {
-        return results.rows;
-    });
-};
-
+// exports.postLink =function(title, description, link) {
+//     return db.query(
+//         'INSERT INTO links (title, description, link) VALUES ($1, $2, $3)',
+//         [title, description, link]
+//     ).then((results) => {
+//         return results.rows;
+//     });
+// };
+//
 exports.getLinks =function() {
     return db.query(
         'SELECT title, description, link FROM links order by id desc limit 5;'
@@ -31,14 +31,14 @@ exports.getLinks =function() {
     });
 };
 
-exports.uploadPost =function(title, description) {
-    return db.query(
-        'INSERT INTO posts (title, description) VALUES ($1, $2)',
-        [title, description]
-    ).then((results) => {
-        return results.rows;
-    });
-};
+// exports.uploadPost =function(title, description) {
+//     return db.query(
+//         'INSERT INTO posts (title, description) VALUES ($1, $2)',
+//         [title, description]
+//     ).then((results) => {
+//         return results.rows;
+//     });
+// };
 
 exports.getPosts =function() {
     return db.query(

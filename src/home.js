@@ -14,10 +14,11 @@ export default class Home extends React.Component{
     }
     render(){
 
+
         return(
             <div id='home-section'>
                 <div className='container-under-and-lines'>
-                <img src='./placeholder_logo.png' className='under-line' />
+                <img src='./logo2.png' className='under-line' />
 
                 <div className='lines-container'>
                     <div className='each-line'>
@@ -163,7 +164,7 @@ export default class Home extends React.Component{
 
                 </div>
             </div>
-            
+
             </div>
         )
     }

@@ -14,6 +14,7 @@ export default class Contact extends React.Component{
     }
     render(){
         return(
+            <div>
             <div id='contact-section'>
 
                 <form className='contact-form-container' target="_blank"  action="mailto:johnnybareket@gmail.com" method="post" enctype="text/plain" >
@@ -24,7 +25,8 @@ export default class Contact extends React.Component{
                         <textarea id= 'text-area-contact' placeholder="Let's hear it!"></textarea>
                         <input className='click-btn' type="submit" name="submit" value="Submit" id='button'></input>
                 </form>
-
+            </div>
+            <div className='footer'>© Jonathan Bareket 2018 - This website was built with React</div>
             </div>
         )
     }

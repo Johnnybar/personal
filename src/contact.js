@@ -19,9 +19,13 @@ export default class Contact extends React.Component{
 
                 <form className='contact-form-container' target="_blank"  action="mailto:johnnybareket@gmail.com" method="post" enctype="text/plain" >
                 <br/><div>Wanna work together? Like what you see? Did I gain some weight? Let me know!</div><br/>
-                Full Name: <input type="text" name="FullName" placeholder='Full Name'></input>
-                    Email:<input type="text" name="Email" placeholder='Email Address'></input>
-                        Subject:<input type="text" name="Subject" placeholder='Subject'></input>
+
+                <input type="text" name="FullName" placeholder='Full Name'></input>
+                <br/>
+                    <input type="text" name="Email" placeholder='Email Address'></input>
+                    <br/>
+                        <input type="text" name="Subject" placeholder='Subject'></input>
+                        <br/>
                         <textarea id= 'text-area-contact' placeholder="Let's hear it!"></textarea>
                         <input className='click-btn' type="submit" name="submit" value="Submit" id='button'></input>
                 </form>

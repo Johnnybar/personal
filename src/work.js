@@ -25,7 +25,7 @@ export default class Work extends React.Component{
                  save favourite cinemas and search for movie info using the IMDB DB.
                 <a href='https://github.com/Johnnybar/mini-projects/tree/master/spotifyApiSearch' target="_blank"> SpotifyUi</a>, a mini-Spotify UI to search for and play music from albums and artists.
                 <a href='https://github.com/Johnnybar/mini-projects/tree/master/GithubApiSearch' target="_blank"><br/> GitSearch.</a>, a mini-app, designed to search for GitHub users and view their most recent commits.
-                <br/>View source code for all projects <a href='https://github.com/Johnnybar' target="_blank">here.</a>
+                <br/><span className='highlight'>&nbsp;View source code for all projects <a href='https://github.com/Johnnybar' target="_blank">here. &nbsp;</a></span>
              </p>
                 </div>
                 </div>
@@ -40,7 +40,7 @@ export default class Work extends React.Component{
                     <a className="box e" href='https://j-petition.herokuapp.com/register'><img className="box e" src='./petition.png'/></a>
                      {/* <div className='box-text petition'>An online petition that allows users to register, manage their profile, sign a petition and see who else signed. Click <a href='https://j-petition.herokuapp.com/register'>here</a> to check website out or <a href='https://github.com/Johnnybar/petition'>here</a> to see source code</div> */}
                         <img className="box g" src='./mini.png'/>
-                        <div className='down-arrow'>▼</div>
+                        {/* <div className='down-arrow'>▼</div> */}
                         <a className="box d" href='https://github.com/Johnnybar/mini-projects/tree/master/spotifyApiSearch'><img className="box d" src='./spotifyui.png'/></a>
                     {/* <div className='box-text spotifyui'>A mini-Spotify UI to search for and play music from albums and artists. Click <a href='https://github.com/Johnnybar/mini-projects/tree/master/spotifyApiSearch' target="_blank">here</a> to see source code</div> */}
                         <a className="box f" href='https://github.com/Johnnybar/mini-projects/tree/master/GithubApiSearch' target="_blank"><img className="box f" src='./gitsearch.png'/></a>

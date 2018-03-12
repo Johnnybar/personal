@@ -27,7 +27,7 @@ export default class App extends React.Component {
     }
 
     componentDidMount() {
-        
+
 // console.log('this is state and token: ',this.state, params);
 
     }
@@ -77,8 +77,8 @@ render() {
         </div>
         <div id='home-section'>
             <div className='name-title white-font' >
-                <div>Johnny_B</div>
-                <div>Content And Design Enthusiast</div>
+                <h2 className='name'>Jonathan Bareket</h2>
+                <div className='claim'>Full Stack Web Developer</div>
             </div>
             {/* RENDERING SpotifyWebApi ELEMENTS */}
          {/* <div className="App">

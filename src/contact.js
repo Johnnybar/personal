@@ -30,7 +30,8 @@ export default class Contact extends React.Component{
                         <input className='click-btn' type="submit" name="submit" value="Submit" id='button'></input>
                 </form>
             </div>
-            <div className='footer'>© Jonathan Bareket 2018 - This website was built with React</div>
+            <div className='footer'>© Jonathan Bareket 2018 - This website was built with React. Follow me on: <a href='https://github.com/Johnnybar'>GitHub</a>/<a href='https://www.linkedin.com/in/jonathan-bareket/'>LinkedIn</a></div>
+
             </div>
         )
     }

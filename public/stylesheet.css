@@ -102,7 +102,7 @@ a { text-decoration: none; color:var(--white);    font-weight: bold;}
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 80vh;
+        height: 100%;
         border-top: 1px solid #262626;
         justify-content: space-between;
         margin-top: 30px;
@@ -194,6 +194,7 @@ a { text-decoration: none; color:var(--white);    font-weight: bold;}
     }
     .about-me{
     width:25vw;
+    height: 100%;
     }
     .skills{
     width:25vw;
@@ -284,7 +285,7 @@ a { text-decoration: none; color:var(--white);    font-weight: bold;}
         height: 90vh;
         width: 40px;
         margin-right: -12px;
-        background-color:var(--black);
+        background-color:#171717;
         transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
         animation-name: move;
           animation-duration: 0.2s;
@@ -753,7 +754,7 @@ iframe{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 80vh;
+    height: 100%;
     border-top: 1px solid #262626;
     justify-content: space-between;
     margin-top: 30px;
@@ -845,6 +846,7 @@ height: 30vh;
 }
 .about-me{
 width:25vw;
+height: 100%;
 }
 .skills{
 width:25vw;
@@ -935,7 +937,7 @@ display: inline;
     height: 90vh;
     width: 40px;
     margin-right: -12px;
-    background-color:var(--black);
+    background-color:#171717;
     transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
     animation-name: move;
       animation-duration: 0.2s;
@@ -1404,7 +1406,7 @@ input{
         display: flex;
         flex-wrap: wrap;
         width: 100%!important;
-        height: 30vh!important;
+        height: 100%!important;
         border-top: 1px solid #262626;
         justify-content: space-between;
         margin-top: 30px!important;
@@ -1414,7 +1416,7 @@ input{
     .about-bottom{
         display: flex;
         flex-wrap: wrap;
-        margin-top: 95vh;
+        /* margin-top: 95vh; */
     }
 
     .posts-list{
@@ -1491,6 +1493,7 @@ input{
     }
     .about-me{
     width: 80vw!important;
+    height: 100%;
     }
     .skills{
     width:80vw!important;
@@ -1695,7 +1698,7 @@ input{
         justify-self: center;
         width: 100%;
     margin-right: 2vw;
-    opacity: 1;
+    opacity: 0.7;
             /* margin-bottom: 85px; */
     }
 
@@ -1706,7 +1709,7 @@ input{
     align-self: center;
     justify-self: center;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     /* margin-top: 58px; */
 
     }
@@ -1717,7 +1720,7 @@ input{
         justify-self: center;
         align-self: center;
         width: 100%;
-        opacity: 1;
+        opacity: 0.7;
         /* margin-top: 50px; */
     }
 
@@ -1728,7 +1731,7 @@ input{
     justify-self: flex-start;
     margin-left: -6px;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
 
     }
 
@@ -1738,7 +1741,7 @@ input{
     align-self: center;
     justify-self: center;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     /* margin-bottom: -21px; */
 
     }
@@ -1748,7 +1751,7 @@ input{
     grid-row: 3;
     align-self: flex-end;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     }
 
     .g {
@@ -1758,7 +1761,7 @@ input{
         margin-top: 20px;
         border-top: 1px solid #525252;
         margin-left:4px;
-        opacity: 1;
+        opacity: 0.7;
 
     }
     /*Contact Section*/
@@ -1823,7 +1826,10 @@ and (max-device-width : 568px)
         left: 36vw;
         margin-top: 15px;
     }
+.nav-container{
+    display: flex;
 
+}
     .name-title{
 
         padding-top: 27px;
@@ -1893,7 +1899,7 @@ and (max-device-width : 568px)
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 30vh;
+        height: 100%;
         border-top: 1px solid #262626;
         justify-content: space-between;
         margin-top: 30px;
@@ -1903,7 +1909,7 @@ and (max-device-width : 568px)
     .about-bottom{
         display: flex;
         flex-wrap: wrap;
-            margin-top: 75vh;
+            /* margin-top: 75vh; */
         /* width: 100%; */
 
         /* height: 100%; */
@@ -1986,7 +1992,8 @@ and (max-device-width : 568px)
     height: 30vh;
     }
     .about-me{
-    width: 80vw;;
+    width: 80vw;
+    height: 100%;
     }
     .skills{
     width:80vw;
@@ -2191,7 +2198,7 @@ and (max-device-width : 568px)
         justify-self: center;
         width: 100%;
     margin-right: 2vw;
-    opacity: 1;
+    opacity: 0.7;
             /* margin-bottom: 85px; */
     }
 
@@ -2202,7 +2209,7 @@ and (max-device-width : 568px)
     align-self: center;
     justify-self: center;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     /* margin-top: 58px; */
 
     }
@@ -2213,7 +2220,7 @@ and (max-device-width : 568px)
         justify-self: center;
         align-self: center;
         width: 100%;
-        opacity: 1;
+        opacity: 0.7;
         /* margin-top: 50px; */
     }
 
@@ -2224,7 +2231,7 @@ and (max-device-width : 568px)
     justify-self: flex-start;
     margin-left: -6px;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
 
     }
 
@@ -2234,7 +2241,7 @@ and (max-device-width : 568px)
     align-self: center;
     justify-self: center;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     /* margin-bottom: -21px; */
 
     }
@@ -2244,7 +2251,7 @@ and (max-device-width : 568px)
     grid-row: 3;
     align-self: flex-end;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     }
 
     .g {
@@ -2254,7 +2261,7 @@ and (max-device-width : 568px)
         margin-top: 20px;
         border-top: 1px solid #525252;
         margin-left:4px;
-        opacity: 1;
+        opacity: 0.7;
 
     }
     /*Contact Section*/
@@ -2393,7 +2400,7 @@ and (max-device-width : 736px)
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 30vh;
+        height: 100%;
         border-top: 1px solid #262626;
         justify-content: space-between;
         margin-top: 30px;
@@ -2403,7 +2410,7 @@ and (max-device-width : 736px)
     .about-bottom{
         display: flex;
         flex-wrap: wrap;
-            margin-top: 95vh;
+            /* margin-top: 95vh; */
         /* width: 100%; */
 
         /* height: 100%; */
@@ -2486,7 +2493,8 @@ and (max-device-width : 736px)
     height: 30vh;
     }
     .about-me{
-    width: 80vw;;
+    width: 80vw;
+    height: 100%;
     }
     .skills{
     width:80vw;
@@ -2696,7 +2704,7 @@ and (max-device-width : 736px)
         justify-self: center;
         width: 100%;
     margin-right: 2vw;
-    opacity: 1;
+    opacity: 0.7;
             /* margin-bottom: 85px; */
     }
 
@@ -2707,7 +2715,7 @@ and (max-device-width : 736px)
     align-self: center;
     justify-self: center;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     /* margin-top: 58px; */
 
     }
@@ -2718,7 +2726,7 @@ and (max-device-width : 736px)
         justify-self: center;
         align-self: center;
         width: 100%;
-        opacity: 1;
+        opacity: 0.7;
         /* margin-top: 50px; */
     }
 
@@ -2729,7 +2737,7 @@ and (max-device-width : 736px)
     justify-self: flex-start;
     margin-left: -6px;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
 
     }
 
@@ -2739,7 +2747,7 @@ and (max-device-width : 736px)
     align-self: center;
     justify-self: center;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     /* margin-bottom: -21px; */
 
     }
@@ -2749,7 +2757,7 @@ and (max-device-width : 736px)
     grid-row: 3;
     align-self: flex-end;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     }
 
     .g {
@@ -2759,7 +2767,7 @@ and (max-device-width : 736px)
         margin-top: 20px;
         border-top: 1px solid #525252;
         margin-left:4px;
-        opacity: 1;
+        opacity: 0.7;
 
     }
     /*Contact Section*/
@@ -2894,7 +2902,7 @@ and (-webkit-min-device-pixel-ratio: 1){
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 30vh;
+        height: 100%;
         border-top: 1px solid #262626;
         justify-content: space-between;
         margin-top: 30px;
@@ -2904,7 +2912,7 @@ and (-webkit-min-device-pixel-ratio: 1){
     .about-bottom{
         display: flex;
         flex-wrap: wrap;
-            margin-top: 10vh;
+            /* margin-top: 10vh; */
         /* width: 100%; */
 
         /* height: 100%; */
@@ -2987,7 +2995,8 @@ and (-webkit-min-device-pixel-ratio: 1){
     height: 30vh;
     }
     .about-me{
-    width: 90vw;;
+    width: 90vw;
+    height: 100%;
     }
     .skills{
     width:90vw;
@@ -3197,7 +3206,7 @@ and (-webkit-min-device-pixel-ratio: 1){
         justify-self: center;
         width: 100%;
     margin-right: 2vw;
-    opacity: 1;
+    opacity: 0.7;
             /* margin-bottom: 85px; */
     }
 
@@ -3208,7 +3217,7 @@ and (-webkit-min-device-pixel-ratio: 1){
     align-self: center;
     justify-self: center;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     /* margin-top: 58px; */
 
     }
@@ -3219,7 +3228,7 @@ and (-webkit-min-device-pixel-ratio: 1){
         justify-self: center;
         align-self: center;
         width: 100%;
-        opacity: 1;
+        opacity: 0.7;
         /* margin-top: 50px; */
     }
 
@@ -3230,7 +3239,7 @@ and (-webkit-min-device-pixel-ratio: 1){
     justify-self: flex-start;
     margin-left: -6px;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
 
     }
 
@@ -3240,7 +3249,7 @@ and (-webkit-min-device-pixel-ratio: 1){
     align-self: center;
     justify-self: center;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     /* margin-bottom: -21px; */
 
     }
@@ -3250,7 +3259,7 @@ and (-webkit-min-device-pixel-ratio: 1){
     grid-row: 3;
     align-self: flex-end;
     width: 100%;
-    opacity: 1;
+    opacity: 0.7;
     }
 
     .g {
@@ -3260,7 +3269,7 @@ and (-webkit-min-device-pixel-ratio: 1){
         margin-top: 20px;
         border-top: 1px solid #525252;
         margin-left:4px;
-        opacity: 1;
+        opacity: 0.7;
 
     }
     /*Contact Section*/

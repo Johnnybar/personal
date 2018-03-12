@@ -58,6 +58,7 @@ export default class App extends React.Component {
 render() {
 
     return (<div>
+
         <div id='nav'>
             {/* <Link to={'/cm'}>CM</Link> */}
             {/* <a href='/cm'>CM</a> */}
@@ -75,6 +76,7 @@ render() {
                 }}>Contact</button>
 
         </div>
+
         <div id='home-section'>
             <div className='name-title white-font' >
                 <h2 className='name'>Jonathan Bareket</h2>

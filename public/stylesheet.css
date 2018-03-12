@@ -1331,7 +1331,7 @@ input{
         position: fixed;
         display: flex;
         flex-direction: row;
-        left: 10vw;
+        left: 8vw;
         margin-top: 15px;
     }
 

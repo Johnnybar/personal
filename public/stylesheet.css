@@ -1608,6 +1608,7 @@ and (max-device-width : 349px)
         height: 30%;
         position: absolute;
         margin-left: 2vw;
+        visibility: hidden;
     }
 
     @-webkit-keyframes flash {

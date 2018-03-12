@@ -1331,7 +1331,7 @@ input{
         position: fixed;
         display: flex;
         flex-direction: row;
-        left: 28vw;
+        left: 18vw;
         margin-top: 15px;
     }
 
@@ -1398,7 +1398,6 @@ input{
         letter-spacing: 0.5px;
 
     }
-
 
     .about-top{
         display: flex;

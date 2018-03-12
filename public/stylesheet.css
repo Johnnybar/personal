@@ -285,7 +285,7 @@ a { text-decoration: none; color:var(--white);    font-weight: bold;}
         height: 90vh;
         width: 40px;
         margin-right: -12px;
-        background-color:var(--black);
+        background-color:#171717;
         transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
         animation-name: move;
           animation-duration: 0.2s;
@@ -677,9 +677,7 @@ body{
     color:#d7d7d7;
 }
 
-.navi{
-    margin-top: 15px;
-}
+
 
 .paint-font-black{
     color:black
@@ -937,7 +935,7 @@ display: inline;
     height: 90vh;
     width: 40px;
     margin-right: -12px;
-    background-color:var(--black);
+    background-color:#171717;
     transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
     animation-name: move;
       animation-duration: 0.2s;

@@ -65,7 +65,7 @@ class About extends React.Component{
                 <div className='about-top'>
                 <div className='about-me'><h2 className='about-title'>About me</h2>
                 <p className='about-description'>I’m a language expert turned JavaScript developer. <br/>I love creating Node applications with React and Redux, and know my way around Vanilla JS, fundamental JS libraries and database management.</p>
-                <p className='about-description'>I've gotten good at learning and spend most of my life trying to stay productive, with a natural inclination towards design, content and music. </p>
+                <p className='about-description'>I've gotten good at learning and spend most of my life trying to stay productive. I have a natural inclination towards design, content and music. </p>
             </div>
                 <div className='skills'><h2 className='about-title'>What I do</h2>
                 <p className='about-description'>JavaScript, ReactJs, Redux, Node.js, HTML (5/6) & CSS(3), PostgreSQL, RESTful APIs, AngularJs, jQuery, Express.js, Handlebars.js, Socket.io </p>

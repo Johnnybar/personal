@@ -26,7 +26,7 @@ export default class Contact extends React.Component{
                     <br/>
                         <input type="text" name="Subject" placeholder='Subject'></input>
                         <br/>
-                        <textarea id= 'text-area-contact' placeholder="Compliment goes here"></textarea>
+                        <textarea id= 'text-area-contact' placeholder="Feedback goes here"></textarea>
                         <input className='click-btn' type="submit" name="submit" value="Submit" id='button'></input>
                 </form>
             </div>

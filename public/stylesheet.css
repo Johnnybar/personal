@@ -282,10 +282,10 @@ a { text-decoration: none; color:var(--white);    font-weight: bold;}
     }
 
     .line{
-        height: 90vh;
+        height: 80vh;
         width: 40px;
         margin-right: -12px;
-        background-color:#171717;
+        background-color:var(--black);
         transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
         animation-name: move;
           animation-duration: 0.2s;
@@ -932,10 +932,10 @@ display: inline;
 }
 
 .line{
-    height: 90vh;
+    height: 80vh;
     width: 40px;
     margin-right: -12px;
-    background-color:#171717;
+    background-color:var(--black);
     transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
     animation-name: move;
       animation-duration: 0.2s;

@@ -276,7 +276,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
         height: 80vh;
         width: 40px;
         margin-right: -12px;
-        background-color: var(--black);
+        background-color: #171717;
          -webkit-transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
         -webkit-animation-name: move;
         -webkit-animation-duration: 0.2s;
@@ -799,7 +799,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
         height: 80vh;
         width: 40px;
         margin-right: -12px;
-        background-color: var(--black);
+        background-color: #171717;
          -webkit-transform: rotateY(-188deg) rotateZ(-43deg) rotateX(-4deg);
         -webkit-animation-name: move;
         -webkit-animation-duration: 0.2s;

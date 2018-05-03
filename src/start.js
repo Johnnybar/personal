@@ -9,29 +9,21 @@ import reduxPromise from 'redux-promise';
 import reducer from './reducers';
 import App from './app';
 import Main from './main';
-import Cm from './cm';
 import { BrowserRouter } from 'react-router-dom'
-
-
-
 
 let router;
 
 const mainRouter = (
 <Provider store = {store}>
-
     <Router history={browserHistory}>
         <Route path="/" component={App}>
             <Route path="/contact" component ={Main} />
             <Route path="/about" component ={Main}  />
             <Route path="/home" component ={Main}  />
-            <Route path="/cm" component ={Main}  />
-
             <IndexRoute component={Main} />
             <Redirect from ="*" to="/" />
         </Route>
     </Router>
-
 </Provider>
 );
 

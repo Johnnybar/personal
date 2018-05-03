@@ -6,31 +6,20 @@ import Home from './home'
 import scrollIntoView from 'scroll-into-view';
 import axios from './axios'
 
+export default class Main extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
 
+  componentDidMount() {}
 
-
-
-export default class Main extends React.Component{
-    constructor(props){
-        super(props)
-        this.state={}
-
-    }
-
-
-    componentDidMount() {
-
-        
-
-    }
-    render(){
-        return(
-            <div>
-                <Home />
-                <About />
-                <Work />
-                <Contact />
-            </div>
-        )
-    }
+  render() {
+    return (<div>
+      <Home/>
+      <About/>
+      <Work/>
+      <Contact/>
+    </div>)
+  }
 }

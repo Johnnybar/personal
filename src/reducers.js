@@ -1,7 +1,5 @@
-// import React from 'react';
 
 export default function(state = {}, action) {
-
 
     if (action.type == 'GET_LINKS') {
         state = Object.assign({}, state, {
@@ -14,7 +12,6 @@ export default function(state = {}, action) {
             posts: action.posts
         });
     }
-
-
+    
     return state;
 }

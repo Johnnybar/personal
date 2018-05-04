@@ -13,7 +13,7 @@ export default class Contact extends React.Component {
     return (<div>
       <div id='contact-section'>
 
-        <form className='contact-form-container' autocomplete="on" target="_blank" action="mailto:johnnybareket@gmail.com" method="post" enctype="text/plain">
+        <form className='contact-form-container' target="_blank" action="mailto:johnnybareket@gmail.com" method="post" enctype="text/plain">
           <br/>
           <div>Want to work together? Like what you see? Let me know!</div><br/>
 

@@ -17,14 +17,14 @@ export default class Contact extends React.Component {
           <br/>
           <div>Want to work together? Like what you see? Let me know!</div><br/>
 
-          <input type="text" name="FullName" placeholder='Full Name' autocomplete="full-name"></input>
+          <input type='text' name='FullName' placeholder='Full Name' autocomplete='full-name'></input>
           <br/>
-          <input type="text" name="Email" placeholder='Email Address' autocomplete="email"></input>
+          <input type='text' name='Email' placeholder='Email Address' autocomplete='email'></input>
           <br/>
-          <input type="text" name="Subject" placeholder='Subject' autocomplete="subject" ></input>
+          <input type='text' name='Subject' placeholder='Subject' autocomplete='subject' ></input>
           <br/>
-          <textarea id='text-area-contact' placeholder="Feedback goes here"></textarea>
-          <input className='click-btn' type="submit" name="submit" value="Submit" id='button' autocomplete="submit"></input>
+          <textarea id='text-area-contact' placeholder='Feedback goes here'></textarea>
+          <input className='click-btn' type='submit' name='submit' value='Submit' id='button' autocomplete='submit'></input>
         </form>
       </div>
       <div className='footer'>© Jonathan Bareket 2018 - This website was built with React. Follow me on:

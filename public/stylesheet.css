@@ -28,6 +28,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 
 @media screen and (min-width: 1400px) {
+
   body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
@@ -51,10 +52,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   .name {
     margin-bottom: 10px;
     margin-top: 0px;
-    font-size: 19px;
+    font-size: 150%;
   }
   .claim {
-    font-size: 13px;
+    font-size: 150%;
     margin-top: 0px;
   }
   #home-section {
@@ -129,11 +130,11 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     -moz-border-radius: 7px;
     cursor: pointer;
     color: var(--grey);
-    font-size: 15px;
+    font-size: 130%;
     letter-spacing: 1px;
     /* border: none; */
     text-decoration: none;
-    text-shadow: 3px 2px 0px var(--black);
+
   }
   #button {
     -webkit-box-shadow: inset 0px 50px 0px -15px var(--black);
@@ -276,7 +277,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     -webkit-animation-fill-mode: both;
   }
   .line-perspective {
-    perspective: 17px;
+    perspective: 18px;
     -webkit-transform: rotateY(-289deg);
     width: 21px;
     -webkit-animation-name: movePerspective;
@@ -773,7 +774,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     visibility: visible;
   }
   .line-perspective {
-    perspective: 17px;
+    perspective: 18px;
     -webkit-transform: rotateY(-289deg);
     width: 21px;
     -webkit-animation-name: movePerspective;
@@ -2327,7 +2328,7 @@ and (max-device-width: 736px) {
   }
   .under-line {
     opacity: 1;
-    width: 60%;
+    width: 40%;
     height: 50%;
     position: absolute;
     margin-left: 2vw;

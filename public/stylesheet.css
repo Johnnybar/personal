@@ -774,7 +774,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     visibility: visible;
   }
   .line-perspective {
-    perspective: 18px;
+    perspective: 19px;
     -webkit-transform: rotateY(-289deg);
     width: 21px;
     -webkit-animation-name: movePerspective;
@@ -2125,8 +2125,12 @@ and (max-device-width: 736px) {
 ############################################################################### */
 
 /* IPAD 1,2 */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 901px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+#nav{
+  left:71vw;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
   body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
@@ -2140,7 +2144,7 @@ and (max-device-width: 736px) {
     position: fixed;
     display: flex;
     flex-direction: row;
-    left: 65vw;
+    left: 64vw;
     margin-top: 15px;
   }
   .name-title {

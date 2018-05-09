@@ -276,7 +276,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     -webkit-animation-fill-mode: both;
   }
   .line-perspective {
-    perspective: 19px;
+    perspective: 17px;
     -webkit-transform: rotateY(-289deg);
     width: 21px;
     -webkit-animation-name: movePerspective;
@@ -773,7 +773,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     visibility: visible;
   }
   .line-perspective {
-    perspective: 19px;
+    perspective: 17px;
     -webkit-transform: rotateY(-289deg);
     width: 21px;
     -webkit-animation-name: movePerspective;

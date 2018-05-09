@@ -51,6 +51,51 @@ export default class Home extends React.Component {
             </div>
           </div>
           <div className='each-line'>
+            <div className='line-perspective'>
+              <div className='line safari_only'></div>
+            </div>
+          </div>
+          <div className='each-line'>
+            <div className='line-perspective'>
+              <div className='line safari_only'></div>
+            </div>
+          </div>
+          <div className='each-line'>
+            <div className='line-perspective'>
+              <div className='line safari_only'></div>
+            </div>
+          </div>
+          <div className='each-line'>
+            <div className='line-perspective'>
+              <div className='line safari_only'></div>
+            </div>
+          </div>
+          <div className='each-line'>
+            <div className='line-perspective'>
+              <div className='line safari_only'></div>
+            </div>
+          </div>
+          <div className='each-line'>
+            <div className='line-perspective'>
+              <div className='line safari_only'></div>
+            </div>
+          </div>
+          <div className='each-line'>
+            <div className='line-perspective'>
+              <div className='line safari_only'></div>
+            </div>
+          </div>
+          <div className='each-line'>
+            <div className='line-perspective'>
+              <div className='line safari_only'></div>
+            </div>
+          </div>
+          <div className='each-line'>
+            <div className='line-perspective'>
+              <div className='line safari_only'></div>
+            </div>
+          </div>
+          <div className='each-line'>
             <div className='line-perspective '>
               <div className='line safari_only'></div>
             </div>

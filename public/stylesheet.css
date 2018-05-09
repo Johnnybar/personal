@@ -1376,7 +1376,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     position: fixed;
     display: flex;
     flex-direction: row;
-    left: 36vw;
+    left: 25vw;
     margin-top: 15px;
   }
   .nav-container {
@@ -2140,7 +2140,7 @@ and (max-device-width: 736px) {
     position: fixed;
     display: flex;
     flex-direction: row;
-    left: 63vw;
+    left: 65vw;
     margin-top: 15px;
   }
   .name-title {
@@ -2392,8 +2392,8 @@ and (max-device-width: 736px) {
     grid-row: 1;
     align-self: center;
     justify-self: center;
-    width: 100%;
-    margin-right: 2vw;
+    width: 80%;
+    margin-right: -4vw;
     opacity: 0.7;
   }
   .b {
@@ -2401,7 +2401,7 @@ and (max-device-width: 736px) {
     grid-row: 1;
     align-self: center;
     justify-self: center;
-    width: 100%;
+    width: 80%;
     opacity: 0.7;
   }
   .c {
@@ -2409,7 +2409,7 @@ and (max-device-width: 736px) {
     grid-row: 1;
     justify-self: center;
     align-self: center;
-    width: 100%;
+    width: 80%;
     opacity: 0.7;
   }
   .d {
@@ -2418,7 +2418,7 @@ and (max-device-width: 736px) {
     align-self: center;
     justify-self: flex-start;
     margin-left: -6px;
-    width: 100%;
+    width: 80%;
     opacity: 0.7;
   }
   .e {
@@ -2426,20 +2426,20 @@ and (max-device-width: 736px) {
     grid-row: 1;
     align-self: center;
     justify-self: center;
-    width: 100%;
+    width: 80%;
     opacity: 0.7;
   }
   .f {
     grid-column: 9;
     grid-row: 3;
     align-self: flex-end;
-    width: 100%;
+    width: 80%;
     opacity: 0.7;
   }
   .g {
     grid-column: 7;
     grid-row: 2;
-    width: 100%;
+    width: 80%;
     margin-top: 20px;
     border-top: 1px solid #525252;
     margin-left: 4px;
@@ -2468,5 +2468,8 @@ and (max-device-width: 736px) {
   input {
     background-color: transparent;
     border: 1px solid white;
+  }
+
+
   }
 }

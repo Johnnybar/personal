@@ -42,20 +42,21 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     position: fixed;
     display: flex;
     flex-direction: row;
-    left: 78vw;
+    left: 77vw;
     margin-top: 15px;
+    z-index: 100;
   }
   .name-title {
     padding-top: 17px;
-    margin-left: 38px;
+    margin-left: 34px;
   }
   .name {
     margin-bottom: 10px;
     margin-top: 0px;
-    font-size: 150%;
+    font-size: 26px;
   }
   .claim {
-    font-size: 150%;
+    font-size: 18px;
     margin-top: 0px;
   }
   #home-section {
@@ -78,6 +79,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   iframe {
     border: 0.25px;
     margin-top: 30px;
+    height:400px;
   }
   .text-highlight {
     color: var(--white);
@@ -85,12 +87,12 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .about-title {
     font-weight: 700;
-    font-size: 31px;
+    font-size: 36px;
     line-height: 33px;
   }
   .about-description {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 21px;
+    line-height: 27px;
     letter-spacing: 0.5px;
   }
   .about-top {
@@ -98,7 +100,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    border-top: 1px solid #262626;
+    /* border-top: 1px solid #262626; */
     justify-content: space-between;
     margin-top: 30px;
     padding: 25px 13px 60px!important;
@@ -132,7 +134,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     color: var(--grey);
     font-size: 130%;
     letter-spacing: 1px;
-    /* border: none; */
+    border:none;
     text-decoration: none;
 
   }
@@ -141,9 +143,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     -moz-border-radius: 7px;
     cursor: pointer;
     color: var(--grey);
-    font-size: 15px;
+    font-size: 21px;
     letter-spacing: 1px;
-    border: none;
     text-decoration: none;
     text-shadow: 3px 2px 0px var(--black);
     padding-bottom: 7px;
@@ -163,7 +164,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     width: 100vw;
     padding-top: 2vw;
     text-align: center;
-    font-size: 13px;
+    font-size: 18px;
   }
   .forms-container {
     display: flex;
@@ -194,14 +195,14 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     width: 31%;
   }
   .links-posts-title {
-    font-size: 16px;
+    font-size: 21px;
     margin-top: 22px;
     padding-bottom: 14px;
     line-height: 0;
   }
   .links-posts-content {
-    font-size: 14px;
-    line-height: .9rem;
+    font-size: 19px;
+    line-height: 27px;
     display: inline;
   }
   .spotify-container {}
@@ -343,7 +344,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     width: 25%;
   }
   div.work-title h1 {
-    margin-top: 20px;
+    margin-top: 31px;
     color: var(--white);
   }
   .work-description {
@@ -353,8 +354,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   div.work-description p {
     color: var(--white);
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 21px;
+    line-height: 30px;
   }
   .wrapper {
     display: grid;
@@ -461,6 +462,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     flex-direction: column;
     align-items: center;
     height: 100%;
+    font-size: 120%;
   }
   #text-area-contact {
     margin: 20px;
@@ -475,10 +477,12 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     background-color: transparent;
     border: 1px solid white;
     color: white;
+    font-size: 17px;
   }
   input {
     background-color: transparent;
     border: 1px solid white;
+    font-size: 17px;
   }
 }
 
@@ -504,6 +508,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     flex-direction: row;
     left: 78vw;
     margin-top: 15px;
+    z-index: 100;
   }
   .name-title {
     padding-top: 17px;
@@ -559,7 +564,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    border-top: 1px solid #262626;
+    /* border-top: 1px solid #262626; */
     justify-content: space-between;
     margin-top: 30px;
     padding: 25px 13px 60px!important;
@@ -593,8 +598,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     color: var(--grey);
     font-size: 15px;
     letter-spacing: 1px;
-    border: none;
     text-decoration: none;
+    border:none;
     text-shadow: 3px 2px 0px var(--black);
   }
   #button {
@@ -1008,6 +1013,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     flex-direction: row;
     left: 7vw;
     margin-top: 15px;
+    z-index: 100;
   }
   .name-title {
     padding-top: 27px;
@@ -1099,8 +1105,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     color: var(--grey);
     font-size: 13px;
     letter-spacing: 1px;
-    border: none;
     text-decoration: none;
+    border:none;
     text-shadow: 3px 2px 0px var(--black);
   }
   #button {
@@ -1378,6 +1384,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     flex-direction: row;
     left: 25vw;
     margin-top: 15px;
+    z-index: 100;
   }
   .nav-container {
     display: flex;
@@ -1471,8 +1478,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     color: var(--grey);
     font-size: 13px;
     letter-spacing: 1px;
-    border: none;
     text-decoration: none;
+    border:none;
     text-shadow: 3px 2px 0px var(--black);
   }
   #button {
@@ -1769,6 +1776,7 @@ and (max-device-width: 736px) {
     flex-direction: row;
     left: 36vw;
     margin-top: 15px;
+    z-index: 100;
   }
   .name-title {
     padding-top: 27px;
@@ -1859,8 +1867,8 @@ and (max-device-width: 736px) {
     color: var(--grey);
     font-size: 13px;
     letter-spacing: 1px;
-    border: none;
     text-decoration: none;
+    border:none;
     text-shadow: 3px 2px 0px var(--black);
   }
   #button {
@@ -2146,6 +2154,7 @@ and (max-device-width: 736px) {
     flex-direction: row;
     left: 64vw;
     margin-top: 15px;
+    z-index: 100;
   }
   .name-title {
     padding-top: 27px;
@@ -2236,7 +2245,7 @@ and (max-device-width: 736px) {
     color: var(--grey);
     font-size: 17px;
     letter-spacing: 1px;
-    border: none;
+    border:none;
     text-decoration: none;
     text-shadow: 3px 2px 0px var(--black);
   }

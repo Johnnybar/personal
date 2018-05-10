@@ -144,6 +144,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     cursor: pointer;
     color: var(--grey);
     font-size: 21px;
+    border: none;
     letter-spacing: 1px;
     text-decoration: none;
     text-shadow: 3px 2px 0px var(--black);

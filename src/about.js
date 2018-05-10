@@ -18,7 +18,7 @@ class About extends React.Component {
     this.props.dispatch(getLinks());
     this.props.dispatch(getPosts());
   }
-  
+
   render() {
     let linksList;
     let postsList;
@@ -50,13 +50,13 @@ class About extends React.Component {
         <div className='about-me'>
           <h2 className='about-title'>About me</h2>
           <p className='about-description'>I’m a language expert turned JavaScript developer.
-            <br/>I love creating Node applications with React and Redux, and know my way around Vanilla JS, fundamental JS libraries and database management.</p>
-          <p className='about-description'>I've gotten good at learning and spend most of my time trying to stay productive. I have a natural inclination towards design, content and music.
+            <br/>I love creating Node applications with React and Redux, and know my way around Vanilla JS, essential JS libraries and database management.</p>
+          <p className='about-description'>I've gotten good at learning and spend most of my time staying productive. I have a natural inclination towards design, UI and music.
           </p>
         </div>
         <div className='skills'>
           <h2 className='about-title'>What I do</h2>
-          <p className='about-description'>JavaScript, ReactJs, Redux, Node.js, HTML (5/6) & CSS(3), PostgreSQL, RESTful APIs, AngularJs, jQuery, Express.js, Handlebars.js, Socket.io
+          <p className='about-description'>JavaScript, ReactJs, Redux, Node.js, HTML & CSS(3), PostgreSQL, RESTful APIs, jQuery, Express.js, Handlebars.js, Socket.io
           </p>
           <p className='about-description'>Adobe Photoshop, Adobe Illustrator</p>
 

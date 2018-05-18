@@ -303,7 +303,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     width: 40%;
     height: 80%;
     position: absolute;
-    margin-left: 3vw;
+    margin-left: 4vw;
   }
   @-webkit-keyframes flash {
     0% {}

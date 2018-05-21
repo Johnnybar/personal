@@ -28,7 +28,6 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 
 @media screen and (min-width: 1400px) {
-
   body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
@@ -65,10 +64,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     background-color: var(--black);
   }
   #about-section {
-    margin-top: 0!important;
-    margin-bottom: 0!important;
-    padding-top: 0!important;
-    padding-bottom: 0!important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     padding: 24px 60px 60px;
     height: 100%;
     background-color: var(--black);
@@ -79,7 +78,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   iframe {
     border: 0.25px;
     margin-top: 30px;
-    height:400px;
+    height: 400px;
   }
   .text-highlight {
     color: var(--white);
@@ -103,14 +102,14 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     /* border-top: 1px solid #262626; */
     justify-content: space-between;
     margin-top: 30px;
-    padding: 25px 13px 60px!important;
+    padding: 25px 13px 60px !important;
   }
   .about-bottom {
     display: flex;
     flex-wrap: wrap;
     max-width: 1400px;
     border-top: 1px solid #262626;
-    padding: 25px 13px 60px!important;
+    padding: 25px 13px 60px !important;
   }
   .posts-list {
     margin-left: 121px;
@@ -134,9 +133,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     color: var(--grey);
     font-size: 130%;
     letter-spacing: 1px;
-    border:none;
+    border: none;
     text-decoration: none;
-
   }
   #button {
     -webkit-box-shadow: inset 0px 50px 0px -15px var(--black);
@@ -393,6 +391,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   .f:hover {
     opacity: 1
   }
+
+  .h:hover{
+    opacity: 1
+  }
   .a {
     grid-column: 3;
     grid-row: 1;
@@ -409,7 +411,6 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     opacity: 0.6;
     align-self: center;
     justify-self: center;
-
     /* margin-top: 58px; */
   }
   .c {
@@ -449,6 +450,15 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     border-top: 1px solid #525252;
     margin-left: 4px;
   }
+
+    .h {
+      grid-column: 1;
+      grid-row: 1;
+      align-self: center;
+      opacity: 0.5;
+      width: 12vw;
+    }
+
   .down-arrow {
     grid-column: 6;
     grid-row: 3;
@@ -529,10 +539,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     background-color: var(--black);
   }
   #about-section {
-    margin-top: 0!important;
-    margin-bottom: 0!important;
-    padding-top: 0!important;
-    padding-bottom: 0!important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     padding: 24px 60px 60px;
     height: 100%;
     background-color: var(--black);
@@ -567,14 +577,14 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     /* border-top: 1px solid #262626; */
     justify-content: space-between;
     margin-top: 30px;
-    padding: 25px 13px 60px!important;
+    padding: 25px 13px 60px !important;
   }
   .about-bottom {
     display: flex;
     flex-wrap: wrap;
     max-width: 1400px;
     border-top: 1px solid #262626;
-    padding: 25px 13px 60px!important;
+    padding: 25px 13px 60px !important;
   }
   .posts-list {
     margin-left: 48px;
@@ -599,7 +609,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     font-size: 15px;
     letter-spacing: 1px;
     text-decoration: none;
-    border:none;
+    border: none;
     text-shadow: 3px 2px 0px var(--black);
   }
   #button {
@@ -899,6 +909,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   .f:hover {
     opacity: 1
   }
+
+  .h:hover{
+    opacity: 1
+  }
   .box-text {
     padding: 5px;
   }
@@ -955,6 +969,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     margin-top: 20px;
     border-top: 1px solid #525252;
     margin-left: 4px;
+  }
+  .h {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
   }
   .down-arrow {
     grid-column: 6;
@@ -1031,19 +1052,19 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     margin-top: 0px;
   }
   #home-section {
-    width: 100vw!important;
-    height: 70vh!important;
+    width: 100vw !important;
+    height: 70vh !important;
     background-color: var(--black);
     display: flex;
     flex-direction: column;
   }
   #about-section {
-    margin-top: 0!important;
-    margin-bottom: 0!important;
-    padding-top: 0!important;
-    padding-bottom: 0!important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     padding: 20px;
-    height: 100%!important;
+    height: 100% !important;
     ;
     background-color: var(--black);
     color: var(--grey);
@@ -1073,12 +1094,12 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   .about-top {
     display: flex;
     flex-wrap: wrap;
-    width: 100%!important;
-    height: 100%!important;
+    width: 100% !important;
+    height: 100% !important;
     border-top: 1px solid #262626;
     justify-content: space-between;
-    margin-top: 30px!important;
-    padding: 25px 13px 60px!important;
+    margin-top: 30px !important;
+    padding: 25px 13px 60px !important;
   }
   .about-bottom {
     display: flex;
@@ -1088,8 +1109,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     margin-left: 47px;
   }
   #work-section {
-    width: 100vw!important;
-    height: 100%!important;
+    width: 100vw !important;
+    height: 100% !important;
     background-color: var(--red);
     display: flex;
     flex-direction: column;
@@ -1106,7 +1127,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     font-size: 13px;
     letter-spacing: 1px;
     text-decoration: none;
-    border:none;
+    border: none;
     text-shadow: 3px 2px 0px var(--black);
   }
   #button {
@@ -1128,13 +1149,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     background-color: var(--red);
     color: var(--white);
     padding: 60px;
-    height: 60vh!important;
+    height: 60vh !important;
     font-size: 11px;
   }
   .footer {
     height: 7vh;
     background-color: var(--black);
-    width: 100vw!important;
+    width: 100vw !important;
     padding-top: 2vw;
     text-align: center;
     font-size: 11px;
@@ -1151,22 +1172,22 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     height: 30vh;
   }
   .about-me {
-    width: 80vw!important;
+    width: 80vw !important;
     height: 100%;
   }
   .skills {
-    width: 80vw!important;
+    width: 80vw !important;
     margin-top: 20vh;
   }
   .all-links {
     margin-top: 1rem;
     margin-bottom: 0;
-    width: 40%!important;
+    width: 40% !important;
   }
   .all-posts {
     margin-top: 1rem;
     margin-bottom: 0;
-    width: 40%!important;
+    width: 40% !important;
   }
   .links-posts-title {
     font-size: 16px;
@@ -1198,14 +1219,14 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   .container-under-and-lines {
     display: flex;
     justify-content: center;
-    margin-top: 10vh!important;
+    margin-top: 10vh !important;
   }
   .under-line {
     opacity: 1;
-    width: 40%!important;
-    height: 30%!important;
+    width: 40% !important;
+    height: 30% !important;
     position: absolute;
-    margin-left: 2vw!important;
+    margin-left: 2vw !important;
   }
   @-webkit-keyframes flash {
     0% {}
@@ -1333,6 +1354,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     margin-left: 4px;
     opacity: 0.7;
   }
+  .h {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
+  }
   .contact-form-container {
     display: flex;
     flex-direction: column;
@@ -1411,10 +1439,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     flex-direction: column;
   }
   #about-section {
-    margin-top: 0!important;
-    margin-bottom: 0!important;
-    padding-top: 0!important;
-    padding-bottom: 0!important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     padding: 20px;
     height: 100%;
     background-color: var(--black);
@@ -1450,7 +1478,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     border-top: 1px solid #262626;
     justify-content: space-between;
     margin-top: 30px;
-    padding: 25px 13px 60px!important;
+    padding: 25px 13px 60px !important;
   }
   .about-bottom {
     display: flex;
@@ -1479,7 +1507,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     font-size: 13px;
     letter-spacing: 1px;
     text-decoration: none;
-    border:none;
+    border: none;
     text-shadow: 3px 2px 0px var(--black);
   }
   #button {
@@ -1721,6 +1749,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     margin-left: 4px;
     opacity: 0.7;
   }
+  .h {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
+  }
   /*Contact Section*/
   .contact-form-container {
     display: flex;
@@ -1800,10 +1835,10 @@ and (max-device-width: 736px) {
     flex-direction: column;
   }
   #about-section {
-    margin-top: 0!important;
-    margin-bottom: 0!important;
-    padding-top: 0!important;
-    padding-bottom: 0!important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     padding: 20px;
     height: 100%;
     background-color: var(--black);
@@ -1839,7 +1874,7 @@ and (max-device-width: 736px) {
     border-top: 1px solid #262626;
     justify-content: space-between;
     margin-top: 30px;
-    padding: 25px 13px 60px!important;
+    padding: 25px 13px 60px !important;
   }
   .about-bottom {
     display: flex;
@@ -1847,7 +1882,7 @@ and (max-device-width: 736px) {
   }
   .posts-list {
     margin-left: 60px;
-    ;
+
   }
   #work-section {
     width: 100vw;
@@ -1868,7 +1903,7 @@ and (max-device-width: 736px) {
     font-size: 13px;
     letter-spacing: 1px;
     text-decoration: none;
-    border:none;
+    border: none;
     text-shadow: 3px 2px 0px var(--black);
   }
   #button {
@@ -2099,6 +2134,13 @@ and (max-device-width: 736px) {
     margin-left: 4px;
     opacity: 0.7;
   }
+  .h {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
+  }
   .contact-form-container {
     display: flex;
     flex-direction: column;
@@ -2133,11 +2175,13 @@ and (max-device-width: 736px) {
 ############################################################################### */
 
 /* IPAD 1,2 */
+
 @media only screen and (min-device-width: 901px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-#nav{
-  left:69vw;
+  #nav {
+    left: 69vw;
+  }
 }
-}
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 1) {
   body {
     margin: 0px;
@@ -2178,10 +2222,10 @@ and (max-device-width: 736px) {
     flex-direction: column;
   }
   #about-section {
-    margin-top: 0!important;
-    margin-bottom: 0!important;
-    padding-top: 0!important;
-    padding-bottom: 0!important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     padding: 20px;
     height: 100%;
     background-color: var(--black);
@@ -2217,7 +2261,7 @@ and (max-device-width: 736px) {
     border-top: 1px solid #262626;
     justify-content: space-between;
     margin-top: 30px;
-    padding: 25px 13px 60px!important;
+    padding: 25px 13px 60px !important;
   }
   .about-bottom {
     display: flex;
@@ -2245,7 +2289,7 @@ and (max-device-width: 736px) {
     color: var(--grey);
     font-size: 17px;
     letter-spacing: 1px;
-    border:none;
+    border: none;
     text-decoration: none;
     text-shadow: 3px 2px 0px var(--black);
   }
@@ -2458,6 +2502,13 @@ and (max-device-width: 736px) {
     margin-left: 4px;
     opacity: 0.7;
   }
+  .h {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
+  }
   .contact-form-container {
     display: flex;
     flex-direction: column;
@@ -2482,7 +2533,6 @@ and (max-device-width: 736px) {
     background-color: transparent;
     border: 1px solid white;
   }
+}
 
-
-  }
 }

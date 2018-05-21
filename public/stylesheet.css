@@ -358,6 +358,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .wrapper {
     display: grid;
+    display: -ms-grid;
     background-color: var(--black);
     grid-template-columns: 1fr repeat(5, 3% 1fr);
     grid-template-rows: repeat( 1, 12vw);
@@ -887,6 +888,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .wrapper {
     display: grid;
+    display: -ms-grid;
     background-color: var(--black);
     grid-template-columns: 1fr repeat(5, 3% 1fr);
     grid-template-rows: repeat( 1, 12vw);
@@ -1301,6 +1303,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .wrapper {
     display: grid;
+    display: -ms-grid;
     background-color: var(--black);
     grid-template-columns: 1fr repeat(4, 1% 25fr);
     grid-template-rows: repeat( 1, 18vw);
@@ -1703,6 +1706,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .wrapper {
     display: grid;
+    display: -ms-grid;
     background-color: var(--black);
     grid-template-columns: 1fr repeat(4, 1% 25fr);
     grid-template-rows: repeat( 1, 18vw);
@@ -2095,6 +2099,7 @@ and (max-device-width: 736px) {
   }
   .wrapper {
     display: grid;
+    display: -ms-grid;
     background-color: var(--black);
     grid-template-columns: 1fr repeat(4, 1% 25fr);
     grid-template-rows: repeat( 1, 18vw);
@@ -2470,6 +2475,7 @@ and (max-device-width: 736px) {
   }
   .wrapper {
     display: grid;
+    display: -ms-grid;
     background-color: var(--black);
     grid-template-columns: 1fr repeat(4, 1% 25fr);
     grid-template-rows: repeat( 1, 18vw);

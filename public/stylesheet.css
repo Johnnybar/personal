@@ -395,6 +395,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   .h:hover{
     opacity: 1
   }
+
+  .i:hover{
+    opacity:1;
+  }
   .a {
     grid-column: 3;
     grid-row: 1;
@@ -453,6 +457,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 
     .h {
       grid-column: 1;
+      grid-row: 1;
+      align-self: center;
+      opacity: 0.5;
+      width: 12vw;
+    }
+    .i {
+      grid-column: 11;
       grid-row: 1;
       align-self: center;
       opacity: 0.5;
@@ -913,6 +924,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   .h:hover{
     opacity: 1
   }
+
+  .i:hover{
+    opacity: 1
+  }
   .box-text {
     padding: 5px;
   }
@@ -972,6 +987,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .h {
     grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
+  }
+  .i {
+    grid-column: 11;
     grid-row: 1;
     align-self: center;
     opacity: 0.5;
@@ -1356,6 +1378,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .h {
     grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
+  }
+  .i {
+    grid-column: 11;
     grid-row: 1;
     align-self: center;
     opacity: 0.5;
@@ -1756,6 +1785,13 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     opacity: 0.5;
     width: 12vw;
   }
+  .i {
+    grid-column: 11;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
+  }
   /*Contact Section*/
   .contact-form-container {
     display: flex;
@@ -2141,6 +2177,13 @@ and (max-device-width: 736px) {
     opacity: 0.5;
     width: 12vw;
   }
+  .i {
+    grid-column: 11;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
+  }
   .contact-form-container {
     display: flex;
     flex-direction: column;
@@ -2504,6 +2547,13 @@ and (max-device-width: 736px) {
   }
   .h {
     grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    opacity: 0.5;
+    width: 12vw;
+  }
+  .i {
+    grid-column: 11;
     grid-row: 1;
     align-self: center;
     opacity: 0.5;

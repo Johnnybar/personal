@@ -27,10 +27,13 @@ export default class Work extends React.Component {
               English Showtimes Berlin</a>, a website that allows users to view cinemas that play
               non-dubbed movies in Berlin, check the current program using an API, save
               favourite cinemas and search for movie info using the IMDB DB.
+              <a href='https://github.com/Johnnybar/issue_search' target="_blank">
+                issueSearch</a>, A single page React application, allowing users to search for issues on GitHub,
+                 based on Repo or Username.
             <a href='https://github.com/Johnnybar/mini-projects/tree/master/spotifyApiSearch' target="_blank">
               SpotifyUi</a>, a mini-Spotify UI to search for and play music from albums and artists.
             <a href='https://github.com/Johnnybar/mini-projects/tree/master/GithubApiSearch' target="_blank"><br/>
-              GitSearch.</a>, a mini-app, designed to search for GitHub users and
+              GitSearch.</a>, a mini-app, using jQuery to search for GitHub users and
               view their most recent commits.
             <br/>
             <span className='highlight'>&nbsp;View source code for all projects
@@ -48,6 +51,8 @@ export default class Work extends React.Component {
           <img className="box c" src='./dubbing.png'/></a>
         <a className="box e" href='https://j-petition.herokuapp.com/register'>
           <img className="box e" src='./petition.png'/></a>
+          <a className="box h" href='https://github.com/Johnnybar/issue_search'>
+            <img className="box h" src='./issueSearch.png'/></a>
         <img className="box g" src='./mini.png'/>
         <a className="box d" href='https://github.com/Johnnybar/mini-projects/tree/master/spotifyApiSearch'>
           <img className="box d" src='./spotifyui.png'/></a>

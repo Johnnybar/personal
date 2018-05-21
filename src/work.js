@@ -28,7 +28,7 @@ export default class Work extends React.Component {
               <a href='https://github.com/Johnnybar/spot.stats' target="_blank">
                 Spot.Stats</a>, Interactive Spotify search tool, allowing user to get listening statistics using diagrams and search through playlists (still in development).&nbsp;
             <a href='https://github.com/Johnnybar/mini-projects/tree/master/spotifyApiSearch' target="_blank">
-              SpotifyUi</a>, a mini-Spotify UI using jQuery to search and play music.&nbsp;
+              SpotifyUi</a>, a mini-UI using jQuery to search and play music.&nbsp;
             <a href='https://github.com/Johnnybar/mini-projects/tree/master/GithubApiSearch' target="_blank"><br/>
               GitSearch.</a>, a mini-app, using jQuery to search for GitHub users and view their most recent commits.&nbsp;
             <br/>

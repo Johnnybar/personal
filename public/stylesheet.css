@@ -527,7 +527,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     position: fixed;
     display: flex;
     flex-direction: row;
-    left: 78vw;
+    left: 75vw;
     margin-top: 15px;
     z-index: 100;
   }

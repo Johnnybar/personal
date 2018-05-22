@@ -15,7 +15,7 @@ export default class Contact extends React.Component {
 
         <form className='contact-form-container' target="_blank" action="mailto:johnnybareket@gmail.com" method="post" enctype="text/plain">
           <br/>
-          <div>Want to work together? Like what you see? Let me know!</div><br/>
+          <div className='contact-question'>Want to work together? Like what you see? Let me know!</div><br/>
 
           <input type='text' name='FullName' placeholder='Full Name' autocomplete='full-name'></input>
           <br/>

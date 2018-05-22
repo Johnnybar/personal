@@ -1036,6 +1036,9 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     align-items: center;
     height: 100%;
   }
+  .contact-question{
+    margin-bottom: 10px;
+  }
   #text-area-contact {
     margin: 20px;
     width: 50vw;
@@ -1440,6 +1443,9 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     flex-direction: column;
     align-items: center;
     height: 100%;
+  }
+  .contact-question{
+    margin-bottom: 10px;
   }
   #text-area-contact {
     margin: 20px;
@@ -1846,6 +1852,9 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     flex-direction: column;
     align-items: center;
     height: 100%;
+  }
+  .contact-question{
+    margin-bottom: 10px;
   }
   #text-area-contact {
     margin: 20px;

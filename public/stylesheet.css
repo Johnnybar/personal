@@ -41,7 +41,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     position: fixed;
     display: flex;
     flex-direction: row;
-    left: 76vw;
+    right: 35px;
+    left: auto;
     margin-top: 15px;
     z-index: 100;
   }
@@ -298,7 +299,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .under-line {
     opacity: 1;
-    width: 40%;
+    /* width: 40%; */
     height: 80%;
     position: absolute;
     margin-left: 4vw;
@@ -1059,7 +1060,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     position: fixed;
     display: flex;
     flex-direction: row;
-    left: 7vw;
+    left: 14vw;
     margin-top: 15px;
     z-index: 100;
   }
@@ -1250,8 +1251,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .under-line {
     opacity: 1;
-    width: 40% !important;
-    height: 30% !important;
+    /* width: 40% !important; */
+    height: 25% !important;
     position: absolute;
     margin-left: 2vw !important;
   }
@@ -2235,7 +2236,8 @@ and (max-device-width: 736px) {
 
 @media only screen and (min-device-width: 901px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   #nav {
-    left: 69vw;
+    left:auto;
+    right: 25px
   }
 }
 

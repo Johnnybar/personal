@@ -13,8 +13,8 @@ export default class Home extends React.Component {
     return (<div id='home-section'>
       <div className='container-under-and-lines'>
         <img src='./logo2.png' className='under-line'/>
-
-        <div className='lines-container'>
+        {/* Commented out below is the original lines that were part of the original css hover animation  */}
+        {/* <div className='lines-container'>
           <div className='each-line'>
             <div className='line-perspective '>
               <div className='line safari_only'></div>
@@ -206,7 +206,7 @@ export default class Home extends React.Component {
             </div>
           </div>
 
-        </div>
+        </div> */}
       </div>
     </div>)
   }

@@ -13,7 +13,7 @@ export default class Contact extends React.Component {
     return (<div>
       <div id='contact-section'>
 
-        <form className='contact-form-container' target="_blank" action="mailto:johnnybareket@gmail.com" method="post" enctype="text/plain">
+        <form action="https://formcarry.com/s/svbx6JZQEeb" accept-charset="UTF-8" className='contact-form-container' method="post" >
           <br/>
           <div className='contact-question'>Want to work together? Like what you see? Let me know!</div><br/>
 
@@ -23,7 +23,8 @@ export default class Contact extends React.Component {
           <br/>
           <input type='text' name='Subject' placeholder='Subject' autocomplete='subject' ></input>
           <br/>
-          <textarea id='text-area-contact' placeholder='Feedback goes here'></textarea>
+          <textarea type="text" name="Info" id='text-area-contact' placeholder='Feedback goes here'></textarea>
+          <input type="hidden" name="_gotcha"></input>
           <input className='click-btn' type='submit' name='submit' value='Submit' id='button' autocomplete='submit'></input>
         </form>
       </div>

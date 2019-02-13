@@ -299,8 +299,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .under-line {
     opacity: 1;
-    /* width: 40%; */
-    height: 80%;
+    width: 50%;
+
     position: absolute;
     margin-left: 4vw;
   }
@@ -831,8 +831,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .under-line {
     opacity: 1;
-    width: 40%;
-    height: 80%;
+    width: 50%;
+
     position: absolute;
     margin-left: 2vw;
   }
@@ -1252,8 +1252,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .under-line {
     opacity: 1;
-    /* width: 40% !important; */
-    height: 25% !important;
+    width: 50% !important;
+
     position: absolute;
     margin-left: 2vw !important;
   }
@@ -1658,8 +1658,8 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .under-line {
     opacity: 1;
-    width: 40%;
-    height: 30%;
+    width: 50%;
+
     position: absolute;
     margin-left: 2vw;
   }
@@ -2050,8 +2050,8 @@ and (max-device-width: 736px) {
   }
   .under-line {
     opacity: 1;
-    width: 40%;
-    height: 30%;
+    width: 50%;
+
     position: absolute;
     margin-left: 2vw;
   }
@@ -2445,8 +2445,8 @@ and (max-device-width: 736px) {
   }
   .under-line {
     opacity: 1;
-    width: 40%;
-    height: 50%;
+    width: 50%;
+
     position: absolute;
     margin-left: 2vw;
   }

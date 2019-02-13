@@ -299,7 +299,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
   .under-line {
     opacity: 1;
-    width: 50%;
+    width: 40%;
 
     position: absolute;
     margin-left: 4vw;
